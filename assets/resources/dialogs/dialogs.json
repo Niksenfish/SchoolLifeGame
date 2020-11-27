@@ -1,0 +1,2200 @@
+{
+	"1":
+{
+	"id":1,
+	"in": 0,
+	"bg":"校道1",
+	"entries": [
+
+		{ "index":0,"type":0,"rolename":"NULL","content":"大一新生周，班导组织全班同学步行学校。要不要去？","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"请假|准时参加游校","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"找个理由鸽了，反正以后有的是时间逛。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"请假成功，你在宿舍舒舒服服地度过了一周。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"NULL","content":"在游校的过程中，飘起了小雨，你前面的同学没带伞，你选择","nextindex":5},
+		{ "index":5,"type":1,"rolename":"NULL","content":"我们不熟，冷酷忽视。|上前帮ta撑伞。","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"NULL","content":"你顺利结束了游校，什么事都没发生。","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"你","content":"同学，我们一起撑伞吧？","nextindex":8},
+		{ "index":8,"type":0,"rolename":"同学","content":"啊，真是太谢谢你了。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"你","content":"不客气，举手之劳罢了~","nextindex":10},
+		{ "index":10,"type":0,"rolename":"NULL","content":"同学很感谢你，回去后请了你一杯奶茶。","nextindex":-1}
+	],
+	"sequence":{
+		"请假":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":10,"social":-10,"money":0},"elseresult":null},
+		"准时参加游校":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"我们不熟，冷酷忽视。":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":-5,"social":-5,"money":0},"elseresult":null},
+		"上前帮ta撑伞。":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":5,"social":5,"money":0},"elseresult":null}
+	}
+},
+"2":
+{
+	"id":2,
+	"in": 0,
+	"bg":"教室4",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"开学初年级组织优秀学长学姐分享学习经验，听完讲座后你才发现大学并不像别人所说的那么轻松。你开始在心里默默规划起了未来。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"特长生想那么多干嘛，反正以后走的都是体育这条路。|还是把重心转到学业和其它方面吧，毕竟从事体育是青春饭。","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"此后你积极训练，严格控制身体数据，在队里表现突出，成为主力指日可待。","nextindex":-1},
+		{ "index":3,"type":0,"rolename":"NULL","content":"你开始多往图书馆跑，对训练也没那么上心了。","nextindex":-1}
+	],
+	"sequence":{
+		"特长生想那么多干嘛，反正以后走的都是体育这条路。":{"nextindex":2,"results":{"study":-10,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null},
+		"还是把重心转到学业和其它方面吧，毕竟从事体育是青春饭。":{"nextindex":3,"results":{"study":5,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+"3":
+{
+	"id":3,
+	"in": 0,
+	"bg":"教室2",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"开学第一周温度居高不下，上学路上你慢慢悠悠地才走到了素质拓展中心。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"NULL","content":"离上课地点东三楼还有一段距离，但是快迟到了，于是你小跑了起来。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"NULL","content":"到了教室，你坐在椅子上忍不住想：","nextindex":3},
+		{ "index":3,"type":1,"rolename":"NULL","content":"以后一定要早点要从宿舍出发。|不行，我得买车了。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"NULL","content":"你向同学和学长学姐了解有什么交通工具可以选，各种比较性价比。最后你打算：","nextindex":5},
+		{ "index":5,"type":1,"rolename":"NULL","content":"骑共享单车|乘坐校车|买电动车￥2000","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"NULL","content":"宿舍楼下有的时候停满了共享单车，有时就一辆也找不到，只能选择步行。","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"NULL","content":"校车上下车地点固定，而且停车点每次都有很多人，你只能在大太阳下排队等车","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"NULL","content":"校买电动车花了很多钱，后期的维修费用也不少，但是你的出行方便了许多","nextindex":-1}
+	],
+	"sequence":{
+		"以后一定要早点要从宿舍出发。":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null},
+		"不行，我得买车了。":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"骑共享单车":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":-30},"elseresult":null},
+		"乘坐校车":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":-60},"elseresult":null},
+		"买电动车￥2000":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":-2000},"elseresult":null}
+	}
+},
+"4":
+{
+	"id":4,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"QQ","content":"甄舍友:咱们要不要买洗衣机？用公共洗衣机洗费钱还不太卫生。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"QQ","content":"天底下最好的舍友:支持！我不想再手洗了！","nextindex":2},
+		{ "index":2,"type":0,"rolename":"QQ","content":"你：那我们要买什么样的？","nextindex":3},
+		{ "index":3,"type":1,"rolename":"NULL","content":"买全新的洗衣机￥400|买二手的￥200","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"NULL","content":"京东购买的全新洗衣机虽然有点小贵，但是洗衣机各方面的性能都很棒，省了你们不少时间。","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"NULL","content":"你们在学校二手群购买毕业生用过的洗衣机。洗衣机的价格便宜了不少，但噪音有点大。你们又找维修工人修了几次。","nextindex":-1}
+		
+	],
+	"sequence":{
+		"买全新的洗衣机￥400":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":20,"social":0,"money":-400},"elseresult":null},
+		"买二手的￥200":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":-5,"social":0,"money":-200},"elseresult":null}
+	}
+},
+"5":
+{
+	"id":5,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"晚上要进行班委竞选，恰巧下起了大雨，你选择","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"翘掉班会|虽然不竞选，冒雨赴会。|参与班委竞选。","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"反正不竞选班委，这雨这么大，难不成要游泳游过去？","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"辅导员黄牌警告，反思一千，办公室小茶一盏，妙哉妙哉。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"NULL","content":"淋了一身的雨，参加了一节稀松平常的班会，只是回去后有点感冒。","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"NULL","content":"你竞选成功，任班长一职，未来要加油呀。","nextindex":-1}
+		
+	],
+	"sequence":{
+		"翘掉班会":{"nextindex":2,"results":{"study":0,"reason":-20,"spirit":15,"social":-20,"money":0},"elseresult":null},
+		"虽然不竞选，冒雨赴会。":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":-15,"social":10,"money":0},"elseresult":null},
+		"参与班委竞选。":{"nextindex":5,"results":{"study":5,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+"6":
+{
+	"id":6,
+	"in": 0,
+	"bg":"主界面1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"最近队里一个能力很强的前辈受伤了，短时间是没办法上阵了，你取代了他的位置，同时在心里也有了一个想法。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"一条路走到底|望而却步","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"冲就完事了，好好训练努力提升实力才是王道。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"你获得了队友的信任，队伍因为你们更加团结实力又加强了。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"NULL","content":"要是有一天自己也受伤了怎么办？真的要冒这样的风险继续吗？","nextindex":5},
+		{ "index":5,"type":0,"rolename":"NULL","content":"你在训练之余加大了学习力度，但因为学业繁重等各方面的客观影响，训练上也有所懈怠。","nextindex":-1}
+		
+	],
+	"sequence":{
+		"一条路走到底":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":10,"social":10,"money":0},"elseresult":null},
+		"望而却步":{"nextindex":4,"results":{"study":5,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null}
+	}
+},
+"7":
+{
+	"id":7,
+	"in": 0,
+	"bg":"操场2",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"院运会要开始了，班里的同学都跃跃欲试。你选择：","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"报名报名冲冲冲|不感兴趣","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你轻轻松松拿下了好名次。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"QQ","content":"陌生学长：同学你好~~，我是我们院的田径队队长，我看到了你在运动会上的出色表现，希望你能加入我们田径队这个小团体，一起为校运会努力！","nextindex":4},
+		{ "index":4,"type":1,"rolename":"NULL","content":"不加入|加入","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"QQ","content":"你：不用了，谢谢学长，但是我不太敢兴趣。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"QQ","content":"田径队队长：不再考虑一下吗？队里面的学长学姐们都很友善，而且我们还有训练餐哦。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"QQ","content":"你：不了，我还有别的事要忙活。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"QQ","content":"田径队队长：好的吧。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"NULL","content":"你拒绝了田径队队长的邀请。","nextindex":-1},
+		{ "index":10,"type":0,"rolename":"QQ","content":"你：好呀！","nextindex":11},
+		{ "index":11,"type":0,"rolename":"QQ","content":"田径队队长：够爽快！欢迎加入田径队！","nextindex":12},
+		{ "index":12,"type":0,"rolename":"QQ","content":"田径队队长：我马上拉你进大群！","nextindex":13},
+		{ "index":13,"type":0,"rolename":"NULL","content":"你正式加入了田径队。","nextindex":-1},
+		{ "index":14,"type":0,"rolename":"NULL","content":"院运会期间你在宿舍舒舒服服地度过了一段悠闲时光。","nextindex":-1}
+	],
+	"sequence":{
+		"报名报名冲冲冲":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null},
+		"不感兴趣":{"nextindex":14,"results":{"study":0,"reason":0,"spirit":10,"social":0,"money":0},"elseresult":null},
+		"不加入":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"加入":{"nextindex":10,"results":{"study":0,"reason":0,"spirit":-5,"social":0,"money":0},"elseresult":null}
+	}
+},
+"8":
+{
+	"id":8,
+	"in": 0,
+	"bg":"操场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"院运会要开始了，班里的同学都跃跃欲试。你选择：","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"报名报名冲冲冲|不感兴趣","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你遗憾拿铁，重在参与重在参与。","nextindex":3},
+		{ "index":3,"type":1,"rolename":"NULL","content":"算啦算啦，就这样结束吧。|不行！我要争取！","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"NULL","content":"你的生活和以前没什么两样。","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"NULL","content":"你自行找田径队队长私聊，经过一番交谈，加入了田径队。","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"NULL","content":"院运会期间你在宿舍舒舒服服地度过了一段悠闲时光。","nextindex":-1}
+	],
+	"sequence":{
+		"报名报名冲冲冲":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null},
+		"不感兴趣":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":10,"social":0,"money":0},"elseresult":null},
+		"算啦算啦，就这样结束吧。":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"不行！我要争取！":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":-5,"social":0,"money":0},"elseresult":null}
+	}
+},
+"9":
+{
+	"id":9,
+	"in": 0,
+	"bg":"主界面1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"舍友们商量着统一宿舍风格，当下正一起挑墙纸。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"QQ","content":"甄舍友：www.xxxxxx.com","nextindex":2},
+		{ "index":2,"type":0,"rolename":"QQ","content":"贾舍友：这个宿舍的装饰风格挺好看的。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"QQ","content":"天底下最好的舍友：u1s1是真滴不错。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"QQ","content":"贾舍友：要不我们也整一个？","nextindex":5},
+		{ "index":5,"type":1,"rolename":"NULL","content":"拒绝他们的提议|加入ta们（￥50）","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"QQ","content":"你：净整些花里胡哨的","nextindex":7},
+		{ "index":7,"type":0,"rolename":"NULL","content":"你不同意，舍友也就不再提装饰宿舍一事，但场面略微有些尴尬。","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"NULL","content":"把最近加到购物车里的墙纸分享到宿舍群里","nextindex":9},
+		{ "index":9,"type":0,"rolename":"NULL","content":"大家商量了一下，决定买一款复古简约风的墙纸。","nextindex":-1}
+	],
+	"sequence":{
+		"拒绝他们的提议":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":0,"social":-15,"money":0},"elseresult":null},
+		"加入ta们（￥50）":{"nextindex":8,"results":{"study":0,"reason":0,"spirit":10,"social":5,"money":-50},"elseresult":null}
+	}
+},
+"10":
+{
+	"id":9,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"你在宿舍里打LOL，这时一阵敲门声响起。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"NULL","content":"咚咚咚…","nextindex":2},
+		{ "index":2,"type":0,"rolename":"学姐","content":"你好，请问方便打扰一下吗？","nextindex":3},
+		{ "index":3,"type":1,"rolename":"NULL","content":"不开门|起身开门","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"你","content":"不好意思，不方便开门。","nextindex":5},
+		{ "index":5,"type":1,"rolename":"学姐","content":"好的，打扰了。","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"学姐","content":"同学你好，我们是XX部门的，我们部门正在纳新，有兴趣了解一下吗？","nextindex":7},
+		{ "index":7,"type":1,"rolename":"NULL","content":"不加入|加入","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"你","content":"不好意思，我不太感兴趣","nextindex":9},
+		{ "index":9,"type":0,"rolename":"学姐","content":"可以多了解一下！我们的面试在明天晚上，你可以看看我们的宣传单哦，感兴趣的话可以入群咨询报名哦。打扰你了，拜拜。","nextindex":-1},
+		{ "index":10,"type":0,"rolename":"你","content":"好的。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"NULL","content":"你看了一眼宣传单，转身关门后随手就把宣传单丢进了垃圾桶。","nextindex":-1},
+		{ "index":12,"type":0,"rolename":"你","content":"好像挺有意思的，学姐能多说说吗？","nextindex":13},
+		{ "index":13,"type":0,"rolename":"学姐","content":"我们这个部门是这样这样这样的.......如果你对我们部门感兴趣的话，可以填一下这个表哦，明天晚上面试。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"你","content":"还要面试啊，我有点害怕。。","nextindex":15},
+		{ "index":15,"type":0,"rolename":"学姐","content":"对啊，没关系的，面试就是了解你们一下而已，不用紧张的。","nextindex":16},
+		{ "index":16,"type":0,"rolename":"你","content":"好der，那我试试。","nextindex":-1}
+	],
+	"sequence":{
+		"不开门":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":-5,"money":0},"elseresult":null},
+		"起身开门":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"不加入":{"nextindex":8,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"加入":{"nextindex":12,"results":{"study":0,"reason":0,"spirit":0,"social":5,"money":0},"elseresult":null}
+	}
+},
+"11":
+{
+	"id":11,
+	"in": 0,
+	"bg":"教室1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"填写了报名表后，你收到了来自XX部门的短信。他们通知你今天参加面试。面试现场排起了长队，你等了许久，终于轮到你了。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"学姐","content":"请自我介绍一下。","nextindex":2},
+		{ "index":2,"type":1,"rolename":"NULL","content":"侃侃而谈|沉默寡言","nextindex":-1},
+		{ "index":3,"type":0,"rolename":"你","content":"学长学姐好，我叫XXX,我喜欢唱歌，平时喜欢看看小说。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"学姐","content":"你为什么会想加入我们部门？","nextindex":5},
+		{ "index":5,"type":1,"rolename":"NULL","content":"不是你们邀请我来面试的吗？|因为之前学姐向我介绍了这个部门，我很感兴趣。仔细了解了这个部门后，我更觉得这个部门的活动能让我学到许多有用东西。","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"学姐","content":"如果社团活动和学习冲突的话，你打算怎么协调呢？","nextindex":7},
+	    { "index":7,"type":0,"rolename":"你","content":"我应该会协调学习与社团活动的时间，看看能不能都完成。如果二者不可兼得，我会先处理比较要紧的那个。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"学姐","content":"那我们有这么多面试者，你觉得你有什么优势可以吸引我们选择你加入我们的部门呢？","nextindex":9},
+		{ "index":9,"type":0,"rolename":"你","content":"虽然我现在什么都不太会，但我可以学！","nextindex":10},
+		{ "index":10,"type":0,"rolename":"NULL","content":"学姐多次提问，你回答得都很得体。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"学姐","content":"好的，面试到这里结束了，你可以先回去等通知。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"你","content":"好的，谢谢学姐。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"NULL","content":"第二天，你收到了录取短信。","nextindex":-1},
+		{ "index":14,"type":0,"rolename":"你","content":"嗯... 学长学姐好，我叫...XXX（紧张到声音发抖）。","nextindex":15},
+		{ "index":15,"type":0,"rolename":"NULL","content":"沉默，沉默是今晚的康桥。","nextindex":16},
+		{ "index":16,"type":0,"rolename":"学姐","content":"emmm，没有了吗？","nextindex":17},
+		{ "index":17,"type":0,"rolename":"你","content":"没有了。","nextindex":18},
+        { "index":18,"type":0,"rolename":"学姐","content":"那你对我们部门了解吗？","nextindex":19},
+		{ "index":19,"type":0,"rolename":"你","content":"不太了解。","nextindex":20},
+		{ "index":20,"type":0,"rolename":"NULL","content":"学姐问你的问题你们大都答不上来。很遗憾，你没有通过面试。","nextindex":-1}
+	],
+	"sequence":{
+		"侃侃而谈":{"nextindex":3,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"沉默寡言":{"nextindex":14,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+        "不是你们邀请我来面试的吗？":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":-20,"money":0},"elseresult":null},
+        "因为之前学姐向我介绍了这个部门，我很感兴趣。仔细了解了这个部门后，我更觉得这个部门的活动能让我学到许多有用东西。":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":0},"elseresult":null}
+	}
+},
+"12":
+{
+	"id":12,
+	"in": 0,
+	"bg":"操场2",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"天气转凉，同时学业方面的压力逐渐增加，为了增强体质和改善心情你决定开始跑步锻炼身体。热身的时候你发现了同班的庄梓萱，你和她不太熟，要不要和她打招呼呢？","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"热情地打招呼|自然地问候|假装没有看到，自己跑自己的","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"你","content":"hi~你也来跑步呀？","nextindex":3},
+		{ "index":3,"type":0,"rolename":"庄梓萱","content":"是……是啊。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"NULL","content":"庄梓萱没认出你，尴尬一笑，跑掉了。你突然没了兴致，也溜了。","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"你","content":"这不是庄梓萱吗？","nextindex":6},
+		{ "index":6,"type":0,"rolename":"庄梓萱","content":"你是？","nextindex":7},
+	    { "index":7,"type":0,"rolename":"你","content":"我是你同班同学呀！","nextindex":8},
+		{ "index":8,"type":0,"rolename":"庄梓萱","content":"你，你好。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"NULL","content":"和庄梓萱跑了一段，两人聊了会天，虽然一开始有点拘谨，但算是互相认识了。","nextindex":-1},
+		{ "index":10,"type":0,"rolename":"NULL","content":"跑了两公里后，做完拉伸就回宿舍了。","nextindex":-1}
+	],
+	"sequence":{
+		"热情地打招呼":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":-10,"social":-5,"money":0},"elseresult":null},
+		"自然地问候":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":-10,"social":10,"money":0},"elseresult":null},
+		"假装没有看到，自己跑自己的":{"nextindex":10,"results":{"study":0,"reason":0,"spirit":-10,"social":-10,"money":0},"elseresult":null}
+	}
+},
+"13":
+{
+	"id":13,
+	"in": 0,
+	"bg":"主界面1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"国庆假期在即，父亲和你正在微信聊天。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"爸爸","content":"儿子啊，今年回来吗？爸爸回头给你转点车费。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"不了爸，费钱。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"爸爸","content":"差不了多少，你妈妈这几个月可想你了，回来让我俩瞧瞧呗 。","nextindex":4},
+		{ "index":4,"type":1,"rolename":"NULL","content":"回家看望父母（￥200）|不回家","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"NULL","content":"你把这段时间打工的钱拿去购买往返的车票，父母没表现出太多的惊喜，但顿顿做你喜欢吃的菜。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"NULL","content":"临别前，爸爸拍了拍你的肩膀。","nextindex":7},
+	    { "index":7,"type":0,"rolename":"爸爸","content":"我儿子真是好样的。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"NULL","content":"你受到了感染，暗下决心以后要出人头地，于是刻苦学习了一阵子。","nextindex":-1},
+		{ "index":9,"type":0,"rolename":"你","content":"不了爸，我课业太忙了。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"NULL","content":"说话6","nextindex":-1}
+	],
+	"sequence":{
+		"回家看望父母（￥200）":{"nextindex":5,"results":{"study":10,"reason":0,"spirit":10,"social":0,"money":-200},"elseresult":null},
+		"不回家":{"nextindex":5,"results":{"study":10,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null}
+	}
+},
+"14":
+{
+	"id":14,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"舍友约了一起去吃生蚝，搞个宿舍团建，但近期你有比赛要控制好饮食。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"甄舍友","content":"吃生蚝吗？最近刚考完，也该放松放松了。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"贾舍友","content":"吃啊！这个点也差不多是夜宵的点","nextindex":3},
+		{ "index":3,"type":1,"rolename":"NULL","content":"拒绝|go go go！","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"NULL","content":"算了吧，赛前吃生蚝肚子不舒服是个恶魔诅咒！","nextindex":5},
+		{ "index":5,"type":0,"rolename":"你","content":"算了算了，我明天有篮球赛。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"贾舍友","content":"啊这，那只喝饮料总行了吧？","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"……","nextindex":8},
+		{ "index":8,"type":0,"rolename":"甄舍友","content":"别，你好好还是休息吧，还是比赛重要。","nextindex":9},
+        { "index":9,"type":0,"rolename":"NULL","content":"舍友们开开心心地吃了一顿，你在宿舍无聊地刷了一晚上的手机。","nextindex":-1},
+		{ "index":10,"type":0,"rolename":"你","content":"冲冲冲！","nextindex":11},
+        { "index":11,"type":0,"rolename":"贾舍友","content":"go go go！！","nextindex":12},
+		{ "index":12,"type":0,"rolename":"NULL","content":"果然，吃完生蚝拉肚子了，比赛发挥失常。还跑了一趟校医院去看病......","nextindex":-1}
+	],
+	"sequence":{
+		"拒绝":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":10,"social":-10,"money":0},"elseresult":null},
+		"go go go！":{"nextindex":10,"results":{"study":0,"reason":-15,"spirit":-10,"social":10,"money":-50},"elseresult":null}
+	}
+},
+"15":
+{
+	"id":15,
+	"in": 0,
+	"bg":"操场2",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"军训是每个大学生的必经之路，你们站了一上午军姿。现在是休息时间。教官要你们表演才艺。你选择：","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"献唱一首《热情的沙漠》|悄悄去小卖部买阔落￥10）|无聊地坐在地上休息","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你美妙的歌喉引起了教官的注意~~","nextindex":-1},
+		{ "index":3,"type":0,"rolename":"NULL","content":"被教官发现了，获得额外的十分钟定军姿奖励","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"NULL","content":"突然瞥见旁边的庄梓萱。","nextindex":5},
+		{ "index":5,"type":1,"rolename":"NULL","content":"打招呼|忽视","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"你","content":"又见面啦","nextindex":7},
+	    { "index":7,"type":0,"rolename":"庄梓萱","content":"你，你好。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"真希望萧X腾能来这开个演唱会，天太热辣。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"庄梓萱","content":"附议，实在是太热了。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"NULL","content":"你们零零星星地聊了些学习和生活的小事，不知不觉休息时间就结束了。","nextindex":-1},
+		{ "index":11,"type":0,"rolename":"NULL","content":"你懒得和她说话，休息了十分钟，腿没那么酸了。","nextindex":-1}
+	],
+	"sequence":{
+		"献唱一首《热情的沙漠》":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":5,"social":20,"money":0},"elseresult":null},
+	    "悄悄去小卖部买阔落￥10）":{"nextindex":3,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":-10},"elseresult":null},
+	    "无聊地坐在地上休息":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"打招呼":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":0},"elseresult":null},
+		"忽视":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":10,"social":-5,"money":0},"elseresult":null}
+	}
+},
+"16":
+{
+	"id":16,
+	"in": 0,
+	"bg":"操场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"军训过了几日，进入分组阶段。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"进入方阵组|进入打拳组|进入养生组","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"认真且顺利地完成了训练，和方阵组的同学配合默契。","nextindex":-1},
+		{ "index":3,"type":0,"rolename":"NULL","content":"认真地和教官学习了军体拳。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"庄梓萱","content":"XXX？","nextindex":5},
+		{ "index":5,"type":0,"rolename":"你","content":"又见面啦！你也在养生组呀！","nextindex":6},
+		{ "index":6,"type":0,"rolename":"庄梓萱","content":"是啊，我身体素质不太好，只能来这了。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"养生组没什么事干，好适合我这种咸鱼。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"庄梓萱","content":"哈哈，我也是。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"你","content":"居然现在就可以休息了，要不要来一局皇者？","nextindex":10},
+		{ "index":10,"type":0,"rolename":"庄梓萱","content":"上号！","nextindex":11},
+		{ "index":11,"type":0,"rolename":"NULL","content":"获得了大把大把的休息时间，有时候碰到庄梓萱，闲来无事还一起组队开黑，你们成了好朋友。","nextindex":-1}
+	],
+	"sequence":{
+		"进入方阵组":{"nextindex":2,"results":{"study":10,"reason":0,"spirit":-20,"social":10,"money":0},"elseresult":null},
+		"进入打拳组":{"nextindex":3,"results":{"study":5,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null},
+		"进入养生组":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":10,"social":10,"money":0},"elseresult":null}
+	}
+},
+"17":
+{
+	"id":17,
+	"in": 0,
+	"bg":"校医院1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"“哈啾！哈啾！”恰逢换季，一时没注意保暖，你就得了流感。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"不就医|马上就医","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你觉得自己的自身免疫力很强，过两天就能自愈，不甚在意。但是三天过去了，你的感冒还是没有好，甚至更严重了。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"这几天你上课没精神，功课落下了许多。最后，你还是选择去看医生了。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"NULL","content":"你来到了风雨操场后面的校医院。校医院里的护士姐姐都很和善，让你先到一楼挂号，再到相应科室找医生。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"NULL","content":"医生给你检查了一番，开了相应的医药单，你来到一楼缴费。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"NULL","content":"学校报销了大部分的费用！","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"NULL","content":"你来到了风雨操场后面的校医院。校医院里的护士姐姐都很和善，让你先到一楼挂号，再到相应科室找医生。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"NULL","content":"医生给你检查了一番，开了相应的医药单，你来到一楼缴费。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"NULL","content":"学校报销了大部分的费用！","nextindex":-1}
+	],
+	"sequence":{
+		"不就医":{"nextindex":2,"results":{"study":-15,"reason":-20,"spirit":-20,"social":0,"money":-20},"elseresult":null},
+		"马上就医":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":5,"social":0,"money":-20},"elseresult":null}
+	}
+},
+"19":
+{
+	"id":19,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"你到京元吃饭，看到青春广场搭满了帐篷，人头攒动。各个社团都在纳新，各出奇招吸引新生。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"朝一个感兴趣的社团走去|一个一个帐篷挨个逛过去|不理会，直接进了京元","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你看到喜欢的社团的招牌，直接朝这个社团走了过去","nextindex":3},
+		{ "index":3,"type":0,"rolename":"社团的学长学姐","content":"同学可以来看一下我们社团哦，我们社团有很多活动哦！","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"你们的活动有哪些啊？","nextindex":5},
+		{ "index":5,"type":0,"rolename":"学长学姐","content":"我们的活动主要是......","nextindex":6},
+		{ "index":6,"type":0,"rolename":"NULL","content":"社团的学长学姐热情邀请地向你介绍他们的社团活动，你很感兴趣，加入了他们。社团里的氛围很好，在社团活动中认识了新的朋友。","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"社团的学长学姐","content":"同学可以来看一下我们社团哦，我们社团有很多活动哦！","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"你们的活动有哪些啊？","nextindex":9},
+		{ "index":9,"type":0,"rolename":"NULL","content":"社团的学长学姐热情邀请地向你介绍他们的社团活动，你都很感兴趣，于是你加入了四个社团。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"NULL","content":"社团的活动太多了，你的精力有限，影响了学习。","nextindex":-1}
+	],
+	"sequence":{
+		"朝一个感兴趣的社团走去":{"nextindex":3,"results":{"study":0,"reason":5,"spirit":0,"social":10,"money":0},"elseresult":null},
+		"一个一个帐篷挨个逛过去":{"nextindex":3,"results":{"study":-15,"reason":-5,"spirit":-20,"social":0,"money":0},"elseresult":null},
+		"不理会，直接进了京元":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":-5,"money":0},"elseresult":null}
+	}
+},
+"20":
+{
+	"id":20,
+	"in": 0,
+	"bg":"教室3",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"天底下最好的舍友","content":"你们快看教务处，我最喜欢的老师要在嘉锡讲坛开讲座了，我要报名！你们去吗？","nextindex":1},
+		{ "index":1,"type":0,"rolename":"你","content":"我也很喜欢这位老师，我也去。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你们宿舍全员都在教务处上报名了该老师的嘉锡讲坛。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"两天后。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"高数老师","content":"同学们，明天老师需要出差，明天早上的高数课调至本周四晚上可以吗？","nextindex":5},
+		{ "index":5,"type":0,"rolename":"同学1","content":"好的老师。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"同学2","content":"好的老师。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"好的老师。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"NULL","content":"过了一会儿，你突然想起来周四晚上你要去听讲座。","nextindex":9},
+		{ "index":9,"type":1,"rolename":"你","content":"不管了，去上高数课|跟高数老师请假|再想想办法吧","nextindex":-1},
+		{ "index":10,"type":0,"rolename":"NULL","content":"你觉得高数课比较重要，直接去上了高数课。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"NULL","content":"你在课前得知，报名讲座但是没去参加的次数累计到3次以后将被取消今后听取相应讲座的资格。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"NULL","content":"因此你高数课也上得不怎么专心，","nextindex":13},
+		{ "index":13,"type":0,"rolename":"NULL","content":"你实在很喜欢那位书法大师，和老师请假去听讲座。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"NULL","content":"过后，你花费了许多精力自习落下的高数知识点，但没有能理解透彻。","nextindex":15},
+		{ "index":15,"type":0,"rolename":"NULL","content":"舍友问了学姐，原来报名嘉锡讲坛后，如果遇到了特殊情况，只要及时在教务处上退选就可以了。","nextindex":16},
+		{ "index":16,"type":0,"rolename":"NULL","content":"你登录教务处退选了讲座。周四准时去了高数课。","nextindex":17},
+		{ "index":17,"type":0,"rolename":"NULL","content":"没有听到讲座，有点小遗憾。","nextindex":18}
+	],
+	"sequence":{
+		"不管了，去上高数课":{"nextindex":10,"results":{"study":5,"reason":-10,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"跟高数老师请假":{"nextindex":13,"results":{"study":-10,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null},
+		"再想想办法吧":{"nextindex":15,"results":{"study":15,"reason":10,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+"21":
+{
+	"id":21,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"一年一度的团立项在青春广场上举行，你正把租的帐篷搬到青春广场，班里的同学都在青春广场上等着你搬的帐篷。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"同学","content":"你终于来了！","nextindex":2},
+		{ "index":2,"type":1,"rolename":"null","content":"承认错误|强词夺理","nextindex":-1},
+		{ "index":3,"type":0,"rolename":"你","content":"不好意思，我迟到了，刚刚我的手被帐篷割伤，去买了个邦迪，耽误了一会。","nextindex":5},
+		{ "index":4,"type":0,"rolename":"你","content":"我就耽搁你了一会儿，也没什么大问题吧？","nextindex":5},
+		{ "index":5,"type":0,"rolename":"null","content":"同学们开始搭帐篷，你看到有同学不会固定帐篷脚。","nextindex":6},
+		{ "index":6,"type":1,"rolename":"null","content":"热心帮助|袖手旁观","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"你","content":"你把帐篷脚竖直，螺丝拧紧就行了。说着上手帮他们固定好了一边。同学C照你的说的方法，固定好了帐篷。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"同学C照你的说的方法，固定好了帐篷。","nextindex":-1},
+		{ "index":9,"type":0,"rolename":"null","content":"你在自己搭好的帐篷里休息了一会，没过多久其他人也都搭好了帐篷","nextindex":-1}
+	],
+	"sequence":{
+		"承认错误":{"nextindex":3,"results":{"study":0,"reason":0,"spirit":5,"social":10,"money":0},"elseresult":null},
+		"强词夺理":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":-10,"money":0},"elseresult":null},
+		"热心帮助":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":0},"elseresult":null},
+		"袖手旁观":{"nextindex":9,"results":{"study":0,"reason":0,"spirit":10,"social":-10,"money":0},"elseresult":null}
+	}
+},
+"22":
+{
+	"id":22,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"周日早上，你躺在床上玩手机，班级群里班长在催促大家去青春广场参加团立项活动。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"假装没有看到班长的消息，继续玩手机|看到消息后立刻起床洗漱，去青春广场参加活动","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你去到青春广场后，看到青春广场上有许多班级的团立项活动在做宣传，你一时没找到自己班级的帐篷在哪里。","nextindex":3},
+		{ "index":3,"type":1,"rolename":"null","content":"继续寻找|到别班帐篷参观","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"null","content":"QQ联系了班长，问了一下大致位置，你找到了班级的帐篷，和大家一起开展团立项活动。","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"null","content":"其他班级的同学热情邀请你参加他们的活动，你玩了一些小游戏，但是运气不好，什么奖品都没有得到。","nextindex":-1}
+		
+	],
+	"sequence":{
+		"假装没有看到班长的消息，继续玩手机":{"nextindex":-1,"results":{"study":0,"reason":-10,"spirit":0,"social":-5,"money":0},"elseresult":null},
+		"看到消息后立刻起床洗漱，去青春广场参加活动":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":0},"elseresult":null},
+		"继续寻找":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"到别班帐篷参观":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":-10,"social":5,"money":0},"elseresult":null}
+	}
+},
+"23":
+{
+	"id":23,
+	"in": 0,
+	"bg":"操场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"校运会快要来啦，田径队进入赛前备战阶段。大量的训练量让你每天都浑身酸痛，你开始怀疑训练的合理性。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"太累人了，不去了！|默默继续训练|自行训练","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"jojo我不做人啦！划水快乐！逃训快乐","nextindex":2},
+		{ "index":3,"type":0,"rolename":"null","content":"很遗憾，你在校运会上没能取得名次。但是参与即有奖金和德育，也不算白来一趟","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"null","content":"骨膜炎突发，伤痛影响了比赛成绩，拿了个不怎么理想的名次，学业也受到了影响。","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"null","content":"你找队长说明情况，表达了自行训练的意愿","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"队长，我小腿好疼，这几天想请假修养修养","nextindex":7},
+		{ "index":7,"type":0,"rolename":"队长","content":"好的，你喷点云南白药再热敷一下，如果还是很严重我周末带你去理疗吧","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"谢谢队长！","nextindex":9},
+		{ "index":9,"type":0,"rolename":"队长","content":"好好休息哦","nextindex":10},
+		{ "index":10,"type":0,"rolename":"null","content":"队长让你好好休息，还带你去做了几次理疗（学院报销）。你在兼顾学业的同时没有放松警惕，比赛来临之际，超常发挥取得了好成绩。","nextindex":-1}
+
+	],
+	"sequence":{
+		"太累人了，不去了！":{"nextindex":0,"results":{"study":10,"reason":0,"spirit":10,"social":0,"money":100},"elseresult":null},
+		"默默继续训练":{"nextindex":4,"results":{"study":-10,"reason":0,"spirit":-10,"social":0,"money":300},"elseresult":null},
+		"自行训练":{"nextindex":5,"results":{"study":10,"reason":0,"spirit":-15,"social":0,"money":500},"elseresult":null}
+	}
+},
+"24":
+{
+	"id":24,
+	"in": 0,
+	"bg":"火锅1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"因为运动会最近停课，你想趁这短短的假期查缺补漏。一大早就到图书馆读书。手机突然弹出了消息。。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"天底下最好的舍友","content":"你们来操场看比赛不？我在看跳高比赛。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"甄舍友","content":"算了吧，不想去，躺床上玩手机不香吗？","nextindex":3},
+		{ "index":3,"type":0,"rolename":"贾舍友","content":"有认识的人在比赛吗？","nextindex":4},
+		{ "index":4,"type":0,"rolename":"天底下最好的舍友","content":"没有，就瞎看看，看他们比赛还挺有意思的","nextindex":5},
+		{ "index":5,"type":0,"rolename":"贾舍友","content":"好吧","nextindex":6},
+		{ "index":6,"type":0,"rolename":"甄舍友","content":"晚上吃什么啊？点外卖还是出去出吃啊？","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"谁要去紫荆吃，我等下要去紫荆，可以帮你们带饭回去。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"贾舍友","content":"唉，最近天天去，我吃腻了","nextindex":9},
+		{ "index":9,"type":0,"rolename":"天底下最好的舍友","content":"要不我们出去吃火锅吧？","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"吃烤肉怎么样，我想吃烤肉啊","nextindex":11},
+		{ "index":11,"type":0,"rolename":"天底下最好的舍友","content":"今天这么冷吃火锅才过瘾去","nextindex":12},
+		{ "index":13,"type":0,"rolename":"甄舍友","content":"可！","nextindex":13},
+		{ "index":14,"type":0,"rolename":"你","content":"那好吧，吃火锅。","nextindex":14},
+		{ "index":15,"type":0,"rolename":"贾舍友","content":"那我们收拾收拾赶紧去吧。","nextindex":15},
+		{ "index":16,"type":0,"rolename":"天底下最好的舍友","content":"我在一区等你们，快来！","nextindex":16},
+		{ "index":17,"type":0,"rolename":"你","content":"就来！","nextindex":18},
+		{ "index":18,"type":0,"rolename":"null","content":"宿舍四人一起吃了火锅，大家有说有笑的，特别开心。","nextindex":19},
+		{"index":19,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":5,"social":10,"money":-100},"elseresult":null}
+	}
+},
+"25":
+{
+	"id":25,
+	"in": 0,
+	"bg":"主界面1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"睡前护肤，你发现自己的眼霜用完了，面霜也快没了。你在宿舍说：好多东西要买啊，都快要吃土了。天底下最好的舍友:双十一快到了，X宝出了养猫游戏，我邀你了，你快点一下，有红包，加上满减算一算，能剩下不少。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"不玩了|我可以课余时间玩","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你这次考试复习得很充分，考试时答题很流利，心情很不错。","nextindex":3},
+		{ "index":3,"type":1,"rolename":"null","content":"你决定犒劳一下自己（￥500）|你觉得自己本来就是这么优秀！平常心平常心","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"null","content":"这次本来只想买雅诗兰蔻的眼霜，还买了海之蓝的面霜，作为奖励，给自己再买了一瓶死磕兔家的精华水，还买了YS1的口红，买了香奶奶家的香水，越买越多.....虽然家里给的生活费很多，但是东西玩太多了，影响了这个月剩下的日子的生活水平。","nextindex":5},
+		{ "index":5,"type":1,"rolename":"null","content":"向父母再要一些生活费|咸鱼上转卖|兼职","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"null","content":"父母口头上说了你几句花钱太凶了，但还是给你转了生活费。","nextindex":7},
+		{ "index":7,"type":1,"rolename":"null","content":"考试成绩不错，让你对学习更有信心，更加努力学习，成绩越来越好。","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"null","content":"点开天底下最好的舍友分享的链接，在X宝APP上开始撸猫，玩这个游戏每天都要耗费你好多时间，而下周就要考试了。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"你","content":"’这什么破游戏！我都刷到满级了，才抽到个1.11元的红包。浪费我时间。’这段时间你每天都在玩这个游戏，考试考得一般，红包还非常少，十分气愤。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"null","content":"刚好天底下最好的舍友回来了","nextindex":11},
+		{ "index":11,"type":1,"rolename":"null","content":"想跟天底下最好的舍友一起吐槽红包太少|天底下最好的舍友聊聊你新看中的鞋子","nextindex":-1},
+		{ "index":12,"type":0,"rolename":"你","content":"气死我了，你拉我玩的那个游戏，玩了这么久，居然只抽到1.11元。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"天底下最好的舍友","content":"我也只领了2.22元，破游戏。本来还以为能领个100块，我得少买一点东西了，唉~","nextindex":14},
+		{ "index":14,"type":1,"rolename":"null","content":"少买|不少买","nextindex":-1},
+		{ "index":15,"type":0,"rolename":"你","content":"我也要少买一点了，存点是私房钱。","nextindex":-1},
+		{ "index":16,"type":0,"rolename":"null","content":"虽然红包领得少，但是该买的还是要买，你一点都不委屈自己","nextindex":-1},
+		{ "index":17,"type":0,"rolename":"你","content":"你看看这两双鞋那双比较好看?","nextindex":18},
+		{ "index":18,"type":0,"rolename":"天底下最好的舍友","content":"我感觉红色的那双比较好看吧","nextindex":19},
+		{ "index":19,"type":0,"rolename":"你","content":"红色的那双比较保暖，但我也有点喜欢蓝色的那双。","nextindex":20},
+		{ "index":20,"type":1,"rolename":"null","content":"随便买一双|小孩子才做选择，我全都要。","nextindex":-1},
+		{ "index":21,"type":0,"rolename":"天底下最好的舍友","content":"那就买红色的吧，最近气温比较低，保暖一点的比较好。","nextindex":-1}
+	],
+	"sequence":{
+		"不玩了":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"我可以课余时间玩":{"nextindex":8,"results":{"study":0,"reason":0,"spirit":0,"social":5,"money":0},"elseresult":null},
+		"你决定犒劳一下自己（￥500）":{"nextindex":4,"results":{"study":0,"reason":-20,"spirit":0,"social":0,"money":-500},"elseresult":null},
+		"你觉得自己本来就是这么优秀！平常心平常心":{"nextindex":7,"results":{"study":10,"reason":10,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"向父母再要一些生活费":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":300},"elseresult":null},
+		"咸鱼上转卖":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":100},"elseresult":null},
+		"兼职":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":-15,"social":5,"money":300},"elseresult":null},
+		"想跟天底下最好的舍友一起吐槽红包太少":{"nextindex":12,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"天底下最好的舍友聊聊你新看中的鞋子":{"nextindex":17,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"少买":{"nextindex":15,"results":{"study":0,"reason":5,"spirit":0,"social":0,"money":-300},"elseresult":null},
+		"不少买":{"nextindex":16,"results":{"study":0,"reason":-10,"spirit":0,"social":0,"money":-500},"elseresult":null},
+		"随便买一双":{"nextindex":21,"results":{"study":0,"reason":-10,"spirit":0,"social":0,"money":-200},"elseresult":null},
+		"小孩子才做选择，我全都要。":{"nextindex":-1,"results":{"study":0,"reason":-1,"spirit":0,"social":0,"money":-400},"elseresult":null}
+	}
+},
+"26":
+{
+	"id":26,
+	"in": 0,
+	"bg":"图书馆1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"你第一次到图书馆，在二楼选了一本你喜欢的书，看得入迷。不知不觉一下午过去了。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"还书离开|借书回去看","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"null","content":"图书馆里的书架都是一模一样的，你忘记了这本书是在哪个书架拿的","nextindex":3},
+		{ "index":3,"type":1,"rolename":"null","content":"随便找个书架放|小声问问旁边的同学","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"null","content":"你将书随便放在旁边的一个书架上，穿过书架时看到一位同学正推着一小车的书，正将书一本本地归类，你感到有点惭愧","nextindex":5},
+		{ "index":5,"type":0,"rolename":"你","content":"同学，我忘记在哪个书架拿的书了，你知道怎么找它的位置吗","nextindex":6},
+		{ "index":6,"type":0,"rolename":"同学","content":"这样这样那样那样……","nextindex":7},
+		{ "index":7,"type":0,"rolename":"null","content":"根据同学的指引，你找到书架中间的电脑，检索书名，找到了正确位置归还图书","nextindex":8},
+		{ "index":8,"type":0,"rolename":"null","content":"你借到了书之后经常翻看，拓宽了自己的知识面","nextindex":-1}
+	],
+	"sequence":{
+		"还书离开":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"借书回去看":{"nextindex":8,"results":{"study":10,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"随便找个书架放":{"nextindex":4,"results":{"study":0,"reason":-10,"spirit":0,"social":-10,"money":0},"elseresult":null},
+		"小声问问旁边的同学":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":0},"elseresult":null}
+	}
+},
+"27":
+{
+	"id":27,
+	"in": 0,
+	"bg":"主界面1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"快要到考试周了，你开始感到焦虑，担心自己考得不理想，要抓紧时间学习了，你打算找个地方静心自习。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"在宿舍自习|去图书馆学习","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"null","content":"你在宿舍自习，贾舍友开始打电话，“妈妈，我今天...”舍友打电话的声音让你无法集中注意力学习，你有点烦躁。","nextindex":3},
+		{ "index":3,"type":1,"rolename":"null","content":"戴上耳机|跟舍友沟通一下","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"null","content":"你带上耳机边听歌边学习，忽然你的手机震动了一下。","nextindex":5},
+		{ "index":5,"type":1,"rolename":"null","content":"查看|不查看","nextindex":6},
+		{ "index":6,"type":0,"rolename":"null","content":"你打开QQ看了一下，不是什么重要的消息。过了一会儿，手机又震动了，你又拿起来查看......一晚上下来，你并没有很多收获","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"null","content":"虽然听歌分散了你的部分注意力，但总算有些收获","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"null","content":"跟舍友简单沟通下，舍友聊了一会就挂了电话，你继续学习。","nextindex":-1},
+		{ "index":9,"type":0,"rolename":"null","content":"你计划好了周六早上去图书馆自习。早上八点，你起床时发现天气不错。","nextindex":10},
+		{ "index":10,"type":1,"rolename":"null","content":"先洗床单，再去自习|直接去自习","nextindex":-1},
+		{ "index":11,"type":0,"rolename":"null","content":"你把床单放进洗衣机洗，等了半个小时，终于洗完了。你晾好被单，赶忙去吃早饭，然后去了图书馆。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"null","content":"周六的图书馆人非常多，晚去的你找不到自习的座位，只能去教学楼找间空教室自习。","nextindex":-1},
+		{ "index":13,"type":0,"rolename":"null","content":"算了，被单不脏，下次再说吧。你早早到了图书馆，发现人很多，找到了一个空位坐下来，图书馆学习氛围很好，你的学习效率很高。","nextindex":-1}
+	],
+	"sequence":{
+		"在宿舍自习":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"去图书馆学习":{"nextindex":9,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"戴上耳机":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"跟舍友沟通一下":{"nextindex":5,"results":{"study":15,"reason":0,"spirit":-10,"social":5,"money":0},"elseresult":null},
+		"查看":{"nextindex":6,"results":{"study":5,"reason":-5,"spirit":-10,"social":5,"money":0},"elseresult":null},
+		"不查看":{"nextindex":7,"results":{"study":10,"reason":0,"spirit":-10,"social":5,"money":0},"elseresult":null},
+		"先洗床单，再去自习":{"nextindex":11,"results":{"study":10,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null},
+		"直接去自习":{"nextindex":13,"results":{"study":20,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null}
+	}
+},
+"28":
+{
+	"id":28,
+	"in": 0,
+	"bg":"奶茶店",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"今天晚上没什么事，你约了三五好友一起玩。朋友还带了新朋友过来","nextindex":1},
+		{ "index":1,"type":1,"rolename":"你","content":"你好啊","nextindex":2},
+		{ "index":2,"type":0,"rolename":"刘丽君","content":"你好，你也是XX专业的吗","nextindex":3},
+		{ "index":3,"type":1,"rolename":"你","content":"哈哈哈哈哈，是啊。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"null","content":"初次见面你们聊得很开心，之后有陆陆续续地在其他场合遇到，关系越来越好","nextindex":5},
+		{ "index":5,"type":0,"rolename":"刘丽君","content":"晚上有空不？约不约","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"去干吗啊","nextindex":7},
+		{ "index":7,"type":0,"rolename":"刘丽君","content":"没干嘛，就是组个局聊聊天玩玩游戏啊，最近又不用补考试放松一下！","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"行啊，就我们两个吗？","nextindex":9},
+		{ "index":9,"type":0,"rolename":"刘丽君","content":"现在就你，我，还有我两个舍友，你再叫些人，我也去约别人，人多好玩。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"那我去问问别人去不去。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"刘丽君","content":"ok","nextindex":12},
+		{ "index":12,"type":0,"rolename":"null","content":"你找了几个朋友，他们都加入了你们局。朋友带朋友的，你又结交到了不少朋友。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"null","content":"朋友多，而且他们经常约你一起出去玩，有时候不好拒绝。玩的时间增多了，学习的时间减少了，学业下降了。","nextindex":14},
+		{"index":14,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":-10,"reason":0,"spirit":-10,"social":15,"money":-300},"elseresult":null}
+	}
+		
+},
+"29":
+{
+	"id":29,
+	"in": 0,
+	"bg":"操场2",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"F大的环校跑一年举办一次，全程4.4公里，分竞赛组和普通组，每组各取男女前五十名录入成绩。虽然挺累的，但跑完就有德育分。。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"队长","content":"环校跑的名额还没满，我们学院实力还是不错的，只要跑完就有德育，有人想去吗？","nextindex":2},
+		{ "index":2,"type":1,"rolename":"null","content":"要不去试试|已经有约了","nextindex":-1},
+		{ "index":3,"type":0,"rolename":"你","content":"行，我准备准备","nextindex":4},
+		{ "index":4,"type":0,"rolename":"队长","content":"报名表.doc","nextindex":5},
+		{ "index":5,"type":0,"rolename":"队长","content":"这是报名表，比赛时间在早上，赛前记得少吃点。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"okk","nextindex":7},
+		{ "index":7,"type":0,"rolename":"null","content":"你利用晚自习结束的那段时间去操场夜跑锻炼，跑完了全程","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"你","content":"可惜了，我比赛那天和别人有约了。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"队长","content":"行吧，其他人有想去的记得交报名表啊。。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"null","content":"环校跑比赛那天你和朋友出去放松了一下。","nextindex":-1}
+	],
+	"sequence":{
+		"要不去试试":{"nextindex":3,"results":{"study":10,"reason":0,"spirit":-15,"social":0,"money":0},"elseresult":null},
+		"已经有约了":{"nextindex":8,"results":{"study":0,"reason":0,"spirit":10,"social":0,"money":0},"elseresult":null}
+	}
+},
+"30":
+{
+	"id":30,
+	"in": 0,
+	"bg":"操场2",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"甄舍友","content":"听说参加环校跑比赛有德育。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"你","content":"哦？还有这等好事？","nextindex":2},
+		{ "index":2,"type":1,"rolename":"甄舍友","content":"学长学姐说是在12月8号，你要不要报名？","nextindex":3},
+		{ "index":3,"type":0,"rolename":"null","content":"报名|拒绝","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"你","content":"好呀，这德育分不拿白不拿","nextindex":5},
+		{ "index":5,"type":0,"rolename":"甄舍友","content":"okk，那我们一起报名吧？","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"嗯嗯","nextindex":7},
+		{ "index":7,"type":0,"rolename":"null","content":"你们报名参加了环校跑，但四公里的距离毕竟不近，跑完之后第二天腰酸背痛腿抽筋的。","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"你","content":"算了吧，太累了，不如宿舍睡大觉","nextindex":9},
+		{ "index":9,"type":0,"rolename":"null","content":"比赛那天你窝在宿舍睡懒觉，好生舒坦。","nextindex":-1}
+	],
+	"sequence":{
+		"报名":{"nextindex":4,"results":{"study":10,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null},
+		"拒绝":{"nextindex":8,"results":{"study":0,"reason":0,"spirit":10,"social":0,"money":0},"elseresult":null}
+	}
+},
+"32" :
+{
+	"id":32,
+	"in": 0,
+	"bg":"永嘉天地1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"放假啦！去离学校最近的商场逛逛，买一些生活用品吧。正好最近都在打折！","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"买爆！（￥300）|买些生活必需品就好（￥100）","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"逛街好开心啊，买买买！","nextindex":3},
+		{ "index":3,"type":0,"rolename":"null","content":"你买了三套衣服，还在永辉超市买了满满两个袋子的东西。回到宿舍整理好东西后，很多日用品暂时用不上，先收到了柜子里。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"你","content":"宿舍里的牙膏用完了，得买牙膏。哦！对了 ，还得再买件外套，过几天要降温了。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"NULL","content":"在超市买完了必要的生活用品后，去了服装店。在服装店的看到了一双好看的手套。正好妈妈的生日快到了。","nextindex":6},
+		{ "index":6,"type":1,"rolename":"null","content":"买手套送给她（￥30）|再逛逛吧","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"你","content":"妈妈的生日快到了，今年送她一副手套吧。","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"你","content":"这手套真好看，不过布料不好，还是再看看吧。","nextindex":-1}
+
+	],
+	"sequence":{
+		"买爆！（￥300）":{"nextindex":2,"results":{"study":0,"reason":-10,"spirit":-10,"social":0,"money":-300},"elseresult":null},
+		"买些生活必需品就好（￥100）":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":-300},"elseresult":null},
+		"买手套送给她（￥30）":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":-30},"elseresult":null},
+		"再逛逛吧":{"nextindex":8,"results":{"study":0,"reason":10,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+"33":
+{
+	"id":33,
+	"in": 0,
+	"bg":"校医院1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"水逆的一天，训练过程中你的膝盖不幸受伤，到医院检查后似乎挺严重的，你选择","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"以此为借口淡出体育训练。|积极配合治疗。","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你到医院打了证明，至此退出校男篮，开启了你眼中的“普通”大学生的日常。","nextindex":-1},
+		{ "index":3,"type":0,"rolename":"null","content":"你辗转于各大医院治疗，伤势渐渐有所好转，但实力较之前有所下降。对此你制定了科学的恢复计划，无论如何，一切都会好起来的！","nextindex":-1}
+	],
+	"sequence":{
+		"以此为借口淡出体育训练。":{"nextindex":2,"results":{"study":10,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"积极配合治疗。":{"nextindex":3,"results":{"study":0,"reason":10,"spirit":-10,"social":0,"money":0},"elseresult":null}
+	}
+},
+"34":
+{
+	"id":34,
+	"in": 0,
+	"bg":"图书馆2",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"考试在即，周围的同学都在紧张地复习。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"临时抱佛脚|自己认真复习|和庄梓萱一起复习","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"过了就好，考前一天突击一下就ok啦~","nextindex":3},
+		{ "index":3,"type":0,"rolename":"null","content":"你将复习的日程一推再推，该吃吃该喝喝该玩玩。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"null","content":"你老老实实地翻阅书本和习题册，有计划地温书。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"null","content":"学习总是疲惫的，但过程中你收获了很多。最终的成绩虽不是最好的，但也不赖。","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"null","content":"你和庄梓萱一起在图书馆复习，抱紧学霸大腿！","nextindex":7},
+		{ "index":7,"type":1,"rolename":"null","content":"刷刷历年卷|理解知识点","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"你","content":"大佬，复习的怎么样了？","nextindex":9},
+		{ "index":9,"type":0,"rolename":"庄梓萱","content":"还行……","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"有什么经验传授吗？","nextindex":11},
+		{ "index":11,"type":0,"rolename":"庄梓萱","content":"额…这是历年卷，刷一遍应该就差不多了。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"庄梓萱","content":"历年卷压缩包.zip","nextindex":13},
+		{ "index":13,"type":0,"rolename":"你","content":"谢谢大佬！","nextindex":14},
+		{ "index":14,"type":0,"rolename":"null","content":"庄梓萱给了你一些历年卷，你刷完卷子去考试，发现有不少原题。虽然有点取巧，但最终考得还行。","nextindex":-1},
+		{ "index":15,"type":0,"rolename":"你","content":"大佬求带！！","nextindex":16},
+		{ "index":16,"type":0,"rolename":"庄梓萱","content":"怎么了","nextindex":17},
+		{ "index":17,"type":0,"rolename":"你","content":"考试复习完全没有头绪，可以带带我吗","nextindex":18},
+		{ "index":18,"type":0,"rolename":"庄梓萱","content":"我复习的差不多了，要不晚上带你过一遍？","nextindex":19},
+		{ "index":19,"type":0,"rolename":"庄梓萱","content":"复习.docx","nextindex":20},
+		{ "index":20,"type":0,"rolename":"庄梓萱","content":"这是我刚整理出来的大纲。","nextindex":21},
+		{ "index":21,"type":0,"rolename":"你","content":"谢谢谢谢谢谢谢谢谢谢谢谢大佬！！！！","nextindex":22},
+		{ "index":22,"type":0,"rolename":"null","content":"庄梓萱整理了一份提纲和你一起复习，听完大佬的归纳后你对知识点有了进一步的理解。之后又刷了一些历年卷，效率很高。你最终取得了不错的成绩。","nextindex":-1}
+	],
+	"sequence":{
+		"临时抱佛脚":{"nextindex":2,"results":{"study":-15,"reason":-10,"spirit":5,"social":0,"money":0},"elseresult":null},
+		"自己认真复习":{"nextindex":4,"results":{"study":20,"reason":0,"spirit":-20,"social":0,"money":0},"elseresult":null},
+		"和庄梓萱一起复习":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"刷刷历年卷":{"nextindex":8,"results":{"study":15,"reason":0,"spirit":-10,"social":10,"money":0},"elseresult":null},
+		"理解知识点":{"nextindex":15,"results":{"study":20,"reason":0,"spirit":-10,"social":15,"money":0},"elseresult":null}
+	}
+},
+"35":
+{
+	"id":35,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"元旦前一天晚上天底下最好的舍友要在青春广场上进行街舞表演。天底下最好的舍友准备上台了，ta把ta和队友的外套都交给了你保管。你看到有人在免费发啦啦棒。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"领啦啦棒（￥50）|不领啦啦棒（￥10）","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你把衣服挂在了舞台旁边，向人群走去，去领了啦啦棒。刚领完啦啦棒，表演就开始了，你挥着啦啦棒给你天底下最好的舍友打call。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"null","content":"表演结束了，天底下最好的舍友下台来找你。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"天底下最好的舍友","content":"衣服在哪？给我吧，好冷啊。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"你","content":"衣服挂在舞台旁边。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"null","content":"你们看过去。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"诶！衣服呢？我刚才明明挂在那里了啊。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"null","content":"天底下最好的舍友他们在寒风中瑟瑟发抖。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"null","content":"大家一起找，最后在舞台后面找到了衣服。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"null","content":"街舞队的队员们没有责怪你，但你为了表达你的歉意，请大家喝奶茶，大家喝着奶茶一起看完了后续表演，看了跨年烟花。","nextindex":-1},
+		{ "index":11,"type":0,"rolename":"null","content":"你抱着衣服在台下看完了整场演出。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"null","content":"表演结束了，天底下最好的舍友下台后，赶紧把衣服拿给ta。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"你","content":"赶紧把衣服穿上吧，太冷了。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"天底下最好的舍友","content":"谢谢你，走，我请你们喝奶茶去。","nextindex":15},
+		{ "index":15,"type":0,"rolename":"null","content":"天气太冷了，大家有说有笑的进了旁边的奶茶店买了热奶茶回来看后续表演，等跨年烟花。","nextindex":-1}
+	],
+	"sequence":{
+		"领啦啦棒（￥50）":{"nextindex":2,"results":{"study":0,"reason":-5,"spirit":0,"social":-10,"money":-50},"elseresult":null},
+		"不领啦啦棒（￥10）":{"nextindex":11,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":-10},"elseresult":null}
+	}
+},
+"36":
+{
+	"id":36,
+	"in": 0,
+	"bg":"食堂1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"你","content":"好饱啊，这家不错，下次我们再来吃。我们去结账吧","nextindex":1},
+		{ "index":1,"type":0,"rolename":"刘丽君","content":"好啊，下次再来，这次你能不能请我一下啊？最近月末了，生活费没多少了，下次我请你。","nextindex":2},
+		{ "index":2,"type":1,"rolename":"NULL","content":"请客（￥20）|不请客","nextindex":-1},
+		{ "index":3,"type":0,"rolename":"NULL","content":"你知道刘丽君每次到月末确实都没什么钱了，想到她平时作业借你抄的时候也挺干脆的，请她吃点东西也没什么。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"咱们AA吧，我也没什么钱了。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"刘丽君","content":"你会没钱，前几天不是还买了一堆东西。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"买东西那些钱是我之前计划好的，剩下的钱不多，差不多就只能花到月末。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"刘丽君","content":"好吧好吧（不耐烦），AA就AA","nextindex":8},
+		{ "index":8,"type":0,"rolename":"NULL","content":"过了几天，你从杨阳那里偶然得知刘丽君到处吐槽你小气巴拉的。","nextindex":9},
+		{ "index":9,"type":1,"rolename":"NULL","content":"不理睬|找刘丽君理论","nextindex":-1},
+		{ "index":10,"type":0,"rolename":"NULL","content":"你非常生气，懒得和刘丽君理论，认识了刘丽君的真面目后，渐渐疏远了她。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"QQ","content":"你：我不想请客怎么了，我又没有义务养你！背后说人家坏话真的很没品= =","nextindex":12},
+		{ "index":12,"type":0,"rolename":"QQ","content":"刘丽君:呵呵，这么多年朋友了，一顿饭也不想请，不是小气是什么。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"NULL","content":"你被气得大哭一场，跟刘丽君绝交了。","nextindex":-1}
+	],
+	"sequence":{
+		"请客（￥20）":{"nextindex":3,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":-20},"elseresult":null},
+		"不请客":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"不理睬":{"nextindex":10,"results":{"study":0,"reason":10,"spirit":10,"social":0,"money":0},"elseresult":null},
+		"找刘丽君理论":{"nextindex":11,"results":{"study":0,"reason":-10,"spirit":-10,"social":-10,"money":0},"elseresult":null}
+	}
+},
+"37":
+{
+	"id":37,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"一学期过去了，辅导员通知要开始选下学期的课程了。F大以三轮投积分的形式选课，其中门门道道不比澳门风云少。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"自己随便选|问学长学姐|照抄舍友的积分","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你觉得选课无所谓，就随便投积分，结果第一轮很多门课都落选了。二轮的时候也没投好，到第三轮才选完了课。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"你问了同系的学长学姐，知道大部分老师的授课方式。你选择了适合自己的老师，认真调整投的分数比例。你的课程都中选了喜欢的老师。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"NULL","content":"你的投分表和舍友的一模一样，中选的课都一样，每天一起上下课，关系很好。","nextindex":-1}
+	],
+	"sequence":{
+		"自己随便选":{"nextindex":2,"results":{"study":-10,"reason":-10,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"问学长学姐":{"nextindex":3,"results":{"study":10,"reason":10,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"照抄舍友的积分":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":-10,"money":0},"elseresult":null}
+	}
+},
+"39":
+{
+	"id":39,
+	"in": 0,
+	"bg":"教室1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"天底下最好的舍友","content":"诶，XXX，大物实验可以预约了，先到先得，赶紧的！","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"下课再说|立刻预约","nextindex":-1},
+		{ "index":2,"type":1,"rolename":"你","content":"下课再预约吧，现在先听课吧。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"你认真听完了线性代数课，开始预约大物实验。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"NULL","content":"但是网非常卡。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"天底下最好的舍友","content":"早就叫你预约了，你非要听课，现在这么卡。","nextindex":6},
+		{ "index":6,"type":1,"rolename":"NULL","content":"十分后悔|问题不大","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"你","content":"后悔，现在就是十分的后悔。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"没关系，反正最后能有名额。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"你","content":"真的吗？ 把网站发给我，我要赶紧预约。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"NULL","content":"你成功预约好了大物实验并且帮舍友预约好了，但是你的线性代数课都没有听，老师布置的作业都不会写。","nextindex":-1}	
+
+	],
+	"sequence":{
+		"下课再说":{"nextindex":2,"results":{"study":5,"reason":5,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"立刻预约":{"nextindex":9,"results":{"study":-5,"reason":-5,"spirit":0,"social":5,"money":0},"elseresult":null},
+		"十分后悔":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":-5,"social":0,"money":0},"elseresult":null},
+		"问题不大":{"nextindex":8,"results":{"study":0,"reason":5,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+"40":
+{
+	"id":40,
+	"in": 0,
+	"bg":"福友阁1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"中国近现代史纲要这门课的大作业是拍摄历史情景剧。你们小组正在决定分工。你在犹豫要干什么活。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"当情景剧主角|处理服化道|当情景剧配角","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你自告奋勇当上了情景剧的主角，你的戏份很多，但是你是第一次拍摄这种类型的短片，非常紧张。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"摄影人员选好场景后，跟你约定好时间拍摄。拍摄的时候，你放松不下来，说台词的时候容易卡，也不容易入戏。","nextindex":4},
+		{ "index":4,"type":1,"rolename":"NULL","content":"跟其他的配角演员换一下角色|增加练习","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"NULL","content":"你担心自己的状态会影响历史情景剧的质量，和其他的配角演员换了角色。其他同学当上了主角，这次的历史情景剧完成得很好，你很羡慕他。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"NULL","content":"你不达目的不罢休，跟摄影人员商量了一下，延后拍摄，回去又练了几遍。最终克服自己，出色得完成了历史情景剧。拍完历史情景剧后你才发现，你有一门课的作业错过了提交时间。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"NULL","content":"拍摄历史情景剧需要租借服装道具，你主动提出负责服化道。但有一些道具在校内服装店没有办法借到。","nextindex":8},
+		{ "index":8,"type":1,"rolename":"NULL","content":"自己制作|上网购买","nextindex":-1},
+		{ "index":9,"type":0,"rolename":"NULL","content":"你利用旧物，自己制作了道具，虽然看着不怎么样，但很有自己的特色。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"NULL","content":"你上网购买了没借到的道具，因为超出预算有点多。你听到一两个同学在小声抱怨，有点沮丧。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"NULL","content":"虽然你没有勇气但任历史情景剧的主角，选择当配角，但你也尽职尽责地把配角演好。","nextindex":-1}
+
+	],
+	"sequence":{
+		"当情景剧主角":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"处理服化道":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"当情景剧配角":{"nextindex":11,"results":{"study":0,"reason":0,"spirit":-10,"social":10,"money":0},"elseresult":null},
+		"跟其他的配角演员换一下角色":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":-5,"social":0,"money":0},"elseresult":null},
+		"增加练习":{"nextindex":6,"results":{"study":-10,"reason":0,"spirit":-15,"social":0,"money":0},"elseresult":null},
+		"自己制作":{"nextindex":9,"results":{"study":0,"reason":0,"spirit":-20,"social":10,"money":0},"elseresult":null},
+		"上网购买":{"nextindex":10,"results":{"study":0,"reason":0,"spirit":0,"social":-10,"money":0},"elseresult":null}
+	}
+},
+
+"42":
+{
+	"id":42,
+	"in": 0,
+	"bg":"图书馆1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"考试在即，周围的同学都在紧张地复习。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"临时抱佛脚|自己认真复习|和庄梓萱一起复习","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"过了就好，考前一天突击一下就ok啦~","nextindex":3},
+		{ "index":3,"type":0,"rolename":"null","content":"你将复习的日程一推再推，该吃吃该喝喝该玩玩。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"null","content":"你老老实实地翻阅书本和习题册，有计划地温书。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"null","content":"学习总是疲惫的，但过程中你收获了很多。最终的成绩虽不是最好的，但也不赖。","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"null","content":"你和庄梓萱一起在图书馆复习，抱紧学霸大腿！","nextindex":7},
+		{ "index":7,"type":1,"rolename":"null","content":"刷刷历年卷|理解知识点","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"你","content":"大佬，复习的怎么样了？","nextindex":9},
+		{ "index":9,"type":0,"rolename":"庄梓萱","content":"还行……","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"有什么经验传授吗？","nextindex":11},
+		{ "index":11,"type":0,"rolename":"庄梓萱","content":"额…这是历年卷，刷一遍应该就差不多了。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"庄梓萱","content":"历年卷压缩包.zip","nextindex":13},
+		{ "index":13,"type":0,"rolename":"你","content":"谢谢大佬！","nextindex":14},
+		{ "index":14,"type":0,"rolename":"null","content":"庄梓萱给了你一些历年卷，你刷完卷子去考试，发现有不少原题。虽然有点取巧，但最终考得还行。","nextindex":-1},
+		{ "index":15,"type":0,"rolename":"你","content":"大佬求带！！","nextindex":16},
+		{ "index":16,"type":0,"rolename":"庄梓萱","content":"怎么了","nextindex":17},
+		{ "index":17,"type":0,"rolename":"你","content":"考试复习完全没有头绪，可以带带我吗","nextindex":18},
+		{ "index":18,"type":0,"rolename":"庄梓萱","content":"我复习的差不多了，要不晚上带你过一遍？","nextindex":19},
+		{ "index":19,"type":0,"rolename":"庄梓萱","content":"复习.docx","nextindex":20},
+		{ "index":20,"type":0,"rolename":"庄梓萱","content":"这是我刚整理出来的大纲。","nextindex":21},
+		{ "index":21,"type":0,"rolename":"你","content":"谢谢谢谢谢谢谢谢谢谢谢谢大佬！！！！","nextindex":22},
+		{ "index":22,"type":0,"rolename":"null","content":"庄梓萱整理了一份提纲和你一起复习，听完大佬的归纳后你对知识点有了进一步的理解。之后又刷了一些历年卷，效率很高。你最终取得了不错的成绩。","nextindex":-1}
+	],
+	"sequence":{
+		"临时抱佛脚":{"nextindex":2,"results":{"study":-15,"reason":-10,"spirit":5,"social":0,"money":0},"elseresult":null},
+		"自己认真复习":{"nextindex":4,"results":{"study":20,"reason":0,"spirit":-20,"social":0,"money":0},"elseresult":null},
+		"和庄梓萱一起复习":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"刷刷历年卷":{"nextindex":8,"results":{"study":15,"reason":0,"spirit":-10,"social":10,"money":0},"elseresult":null},
+		"理解知识点":{"nextindex":15,"results":{"study":20,"reason":0,"spirit":-10,"social":15,"money":0},"elseresult":null}
+	}
+},
+"43":
+{
+	"id":43,
+	"in": 0,
+	"bg":"卧室1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"又是一次体验糟糕的辅导，家教对象再次鸽了你，让你白白苦等了三小时","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"换一个辅导对象|当然是选择原谅","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你觉得你们两个人的时间不太合适，经过协商你换了一个辅导对象。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"null","content":"新的辅导对象各方面都不错，你很满意。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"胡艺语","content":"老师对不起！！！！","nextindex":5},
+		{ "index":5,"type":0,"rolename":"你","content":"害，下次记得准时点。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"胡艺语","content":"一定一定呜呜呜~","nextindex":-1}
+	],
+	"sequence":{
+		"换一个辅导对象":{"nextindex":2,"results":{"study":0,"reason":5,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"当然是选择原谅":{"nextindex":4,"results":{"study":0,"reason":-5,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+"45" :
+{
+	"id":45,
+	"in": 0,
+	"bg":"校道2",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"杨阳","content":"周日陪我去电子城那边买电脑好不？","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"答应|拒绝","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"你","content":"可以啊，周日我也没什么事","nextindex":3},
+		{ "index":3,"type":0,"rolename":"null","content":"周日你陪好友去电子城买了电脑，你顺便也买了个U盘。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"你","content":"电脑在官网、淘宝京东的旗舰店买就好了，干嘛跑那么远，在宿舍躺着玩手机不香吗？","nextindex":5},
+		{ "index":5,"type":0,"rolename":"杨阳","content":"电子城那边便宜，而且到时候维修比较方便。","nextindex":6},
+		{ "index":6,"type":1,"rolename":"null","content":"不行懒得去|那就去一趟","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"你","content":"我不想去，我只想在宿舍睡觉、玩手机。","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"你","content":"好吧。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"null","content":"周日你陪好友去电子城买了电脑，你顺便也买了个U盘。","nextindex":-1}
+
+	],
+	"sequence":{
+		"答应":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":-5,"social":10,"money":-60},"elseresult":null},
+		"拒绝":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"不行懒得去":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":5,"social":-5,"money":0},"elseresult":null},
+		"那就去一趟":{"nextindex":8,"results":{"study":0,"reason":0,"spirit":-5,"social":0,"money":-60},"elseresult":null}
+	}
+},
+"46":
+{
+	"id":46,
+	"in": 0,
+	"bg":"操场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"一年一度校运会在即，田径队又进入了赛前备战阶段，大二虽说是参赛的黄金时期，但比赛前一天你有一门重要的考试。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"不参加|积极参与训练","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你私聊队长，决定今年不参赛了，专心学习。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"你","content":"在吗？今年我就不参赛啦！","nextindex":4},
+		{ "index":4,"type":0,"rolename":"队长","content":"才大二，不再练练吗？","nextindex":5},
+		{ "index":5,"type":0,"rolename":"你","content":"学业繁忙，而且还有考试。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"队长","content":"行吧，好好学习啊。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"谢谢队长！","nextindex":8},
+		{ "index":8,"type":0,"rolename":"null","content":"你淡出了田径队训练，把精力放到了学习上。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"null","content":"有了去年的训练经验，今年的你很快找到了适合自己的科学的训练方法，并且在校运会中取得了不错的名次。","nextindex":-1}
+	],
+	"sequence":{
+		"不参加":{"nextindex":2,"results":{"study":10,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"积极参与训练":{"nextindex":9,"results":{"study":-10,"reason":0,"spirit":-20,"social":0,"money":300},"elseresult":null}
+	}
+},
+"47":
+{
+	"id":47,
+	"in": 0,
+	"bg":"图书馆1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"考试在即，周围的同学都在紧张地复习。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"临时抱佛脚|自己认真复习|和庄梓萱一起复习","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"过了就好，考前一天突击一下就ok啦~","nextindex":3},
+		{ "index":3,"type":0,"rolename":"null","content":"你将复习的日程一推再推，该吃吃该喝喝该玩玩。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"null","content":"你老老实实地翻阅书本和习题册，有计划地温书。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"null","content":"学习总是疲惫的，但过程中你收获了很多。最终的成绩虽不是最好的，但也不赖。","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"null","content":"你和庄梓萱一起在图书馆复习，抱紧学霸大腿！","nextindex":7},
+		{ "index":7,"type":1,"rolename":"null","content":"刷刷历年卷|理解知识点","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"你","content":"大佬，复习的怎么样了？","nextindex":9},
+		{ "index":9,"type":0,"rolename":"庄梓萱","content":"还行……","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"有什么经验传授吗？","nextindex":11},
+		{ "index":11,"type":0,"rolename":"庄梓萱","content":"额…这是历年卷，刷一遍应该就差不多了。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"庄梓萱","content":"历年卷压缩包.zip","nextindex":13},
+		{ "index":13,"type":0,"rolename":"你","content":"谢谢大佬！","nextindex":14},
+		{ "index":14,"type":0,"rolename":"null","content":"庄梓萱给了你一些历年卷，你刷完卷子去考试，发现有不少原题。虽然有点取巧，但最终考得还行。","nextindex":-1},
+		{ "index":15,"type":0,"rolename":"你","content":"大佬求带！！","nextindex":16},
+		{ "index":16,"type":0,"rolename":"庄梓萱","content":"怎么了","nextindex":17},
+		{ "index":17,"type":0,"rolename":"你","content":"考试复习完全没有头绪，可以带带我吗","nextindex":18},
+		{ "index":18,"type":0,"rolename":"庄梓萱","content":"我复习的差不多了，要不晚上带你过一遍？","nextindex":19},
+		{ "index":19,"type":0,"rolename":"庄梓萱","content":"复习.docx","nextindex":20},
+		{ "index":20,"type":0,"rolename":"庄梓萱","content":"这是我刚整理出来的大纲。","nextindex":21},
+		{ "index":21,"type":0,"rolename":"你","content":"谢谢谢谢谢谢谢谢谢谢谢谢大佬！！！！","nextindex":22},
+		{ "index":22,"type":0,"rolename":"null","content":"庄梓萱整理了一份提纲和你一起复习，听完大佬的归纳后你对知识点有了进一步的理解。之后又刷了一些历年卷，效率很高。你最终取得了不错的成绩。","nextindex":-1}
+	],
+	"sequence":{
+		"临时抱佛脚":{"nextindex":2,"results":{"study":-15,"reason":-10,"spirit":5,"social":0,"money":0},"elseresult":null},
+		"自己认真复习":{"nextindex":4,"results":{"study":20,"reason":0,"spirit":-20,"social":0,"money":0},"elseresult":null},
+		"和庄梓萱一起复习":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"刷刷历年卷":{"nextindex":8,"results":{"study":15,"reason":0,"spirit":-10,"social":10,"money":0},"elseresult":null},
+		"理解知识点":{"nextindex":15,"results":{"study":20,"reason":0,"spirit":-10,"social":15,"money":0},"elseresult":null}
+	}
+},
+"49":
+{
+	"id":49,
+	"in": 0,
+	"bg":"火锅1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"甄舍友","content":"这周六晚上我们全宿舍一起去吃海底捞吧？","nextindex":1},
+		{ "index":1,"type":0,"rolename":"天底下最好的舍友","content":"哇偶~好哇！","nextindex":2},
+		{ "index":2,"type":0,"rolename":"贾舍友","content":"啊，我昨天约了我高中同学，我问问他能不能改时间。","nextindex":3},
+		{ "index":3,"type":1,"rolename":"null","content":"爽快答应|委婉拒绝","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"你","content":"好啊，去上次那家吧。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"null","content":"全宿舍体验了一把海底捞的服务，你拍照发了朋友圈。","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"你","content":"不行啊，下周要考试了，我们还是在学校里读书吧","nextindex":7},
+		{ "index":7,"type":0,"rolename":"null","content":"贾舍友不太同意你说的。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"贾舍友","content":"我跟我高中同学说好了，我先跟他出去玩，正好饭点的时候回来，和你们一起吃火锅。哎呀,一起去吧，学习什么时候都能学啊。","nextindex":9},
+		{ "index":9,"type":1,"rolename":"null","content":"坚持不去|被他说服","nextindex":-1},
+		{ "index":10,"type":0,"rolename":"你","content":"我还是不去了...","nextindex":11},
+		{ "index":11,"type":0,"rolename":"null","content":"聚餐计划流产，大家都不是很开心。","nextindex":-1},
+		{ "index":12,"type":0,"rolename":"你","content":"好吧，那我就去吧","nextindex":13},
+		{ "index":13,"type":0,"rolename":"null","content":"全宿舍体验了一把海底捞的服务，你拍照发了朋友圈！","nextindex":-1}
+	],
+	"sequence":{
+		"爽快答应":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":5,"money":-90},"elseresult":null},
+		"委婉拒绝":{"nextindex":6,"results":{"study":5,"reason":0,"spirit":0,"social":-5,"money":0},"elseresult":null},
+		"坚持不去":{"nextindex":10,"results":{"study":0,"reason":0,"spirit":0,"social":-5,"money":0},"elseresult":null},
+		"被他说服":{"nextindex":12,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":-90},"elseresult":null}
+	}
+},
+"50":
+{
+	"id":50,
+	"in": 0,
+	"bg":"主界面1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"你的驾驶证的理论考试90分压线过了，你和爸妈分享这个好消息。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"你","content":"哈哈哈哈哈，我科一过了。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"爸爸","content":"多少分啊？","nextindex":3},
+		{ "index":3,"type":0,"rolename":"你","content":"90分。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"爸爸","content":"哈，才90分，我当时考了100分，你这个大学生怎么考得比我还少。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"你","content":"大学生又不是十项全能。而且科一考的很多都是路标，你们平常在路上开车经常看到这些路标，知道它们的含义是什么，我不经常开车，那些东西只能靠死记硬背的。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"爸爸","content":"也是也是哈。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"妈妈","content":"你们什么时候放假啊？","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"不知道啊，还没具体通知，到时候通知了我再和你们说。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"妈妈","content":"行。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"爸爸","content":"生活费还够不够？","nextindex":11},
+		{ "index":11,"type":1,"rolename":"null","content":"够|不够","nextindex":-1},
+		{ "index":12,"type":0,"rolename":"你","content":"爸，还有呢，上个月也没花完。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"妈妈","content":"哦，你多去食堂吃些炖罐，身体要顾好。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"你","content":"好的。","nextindex":-1},
+		{ "index":15,"type":0,"rolename":"你","content":"我这个月买了衣服，快没钱了......","nextindex":16},
+		{ "index":16,"type":0,"rolename":"爸爸","content":"那我再给你转点。","nextindex":17},
+		{ "index":17,"type":0,"rolename":"你","content":"谢谢爸爸。","nextindex":-1}
+	],
+	"sequence":{
+		"够":{"nextindex":12,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"不够":{"nextindex":15,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":800},"elseresult":null}
+	}
+},
+"51":
+{
+	"id":51,
+	"in": 0,
+	"bg":"校道1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"今天考驾驶证的科目二，你和其它四个的学员一起去考，五个人一起去考就两个人没过，其中有一个就是你。你悲伤地都提不起劲了。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"NULL","content":"教练只把你们送到了东门，天底下最好的舍友骑电动车来接你。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"天底下最好的舍友","content":"科二过了没?","nextindex":3},
+		{ "index":3,"type":0,"rolename":"你","content":"没过啊，难受啊。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"天底下最好的舍友","content":"没事没事，再考就好了。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"你","content":"一共去了五个人，就我和我一个小学妹没过。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"天底下最好的舍友","content":"百分之六十，那这通过率也不高啊，说明很难不好过啊。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"还好吧，我差点就过了啊！我第一次倒车入库的时候车身出库了。第二次都到S弯了，都快做完了，出S弯的时候压到线了，气死我了。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"天底下最好的舍友","content":"哈哈哈哈哈，原谅我，我不该笑的，哈哈~但是我~哈哈忍不住。你最后就不能坚持一下吗，都快结束了，驾驶证都在跟你招手了，太逊了。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"你","content":"啊啊啊啊，气死我了，我好想一遍过啊。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"天底下最好的舍友","content":"再考一次也一样啊，一遍过又不会给你发镀金的驾驶证，哈哈哈。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"你","content":"再考一次我还得去练车，外出的费用，报考的费用，再考一次浪费我的青春，浪费我的金钱，可恶啊！","nextindex":12},
+		{ "index":12,"type":0,"rolename":"天底下最好的舍友","content":"那就下次一定过！","nextindex":13},
+		{ "index":13,"type":0,"rolename":"你","content":"希望如此。","nextindex":14},
+		{ "index":14,"type":1,"rolename":"NULL","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+"52":
+{
+	"id":52,
+	"in": 0,
+	"bg":"教室4",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"你一睁眼，烈日当空，一看手机，已经八点三十分了！！！手机里全是同学和辅导员的询问讯息。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"NULL","content":"你赶紧起床洗漱，到教室上课时第一节课都快下课了。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"NULL","content":"下课后你才有空看手机消息，一一回复。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"QQ","content":"辅导员：你怎么没去上课？什么情况？！","nextindex":4},
+		{ "index":4,"type":0,"rolename":"QQ","content":"你：我睡过头了","nextindex":5},
+		{ "index":5,"type":0,"rolename":"QQ","content":"辅导员：昨晚干嘛了，怎么不好好休息？","nextindex":6},
+		{ "index":6,"type":0,"rolename":"QQ","content":"你：我昨天睡得也不算晚，十一点就上床睡觉了。 ","nextindex":7},
+		{ "index":7,"type":0,"rolename":"QQ","content":"辅导员：那怎么还会迟到？ ","nextindex":8},
+		{ "index":8,"type":0,"rolename":"QQ","content":"你：我睡得比较死……","nextindex":9},
+		{ "index":9,"type":0,"rolename":"QQ","content":"辅导员：闹钟呢？被你关了吗？以后要多定几个闹钟。这次看在你是初犯，回去自我检讨一下，就不做处罚了，下次不要再犯了。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"QQ","content":"你：好的，谢谢老师。","nextindex":11},
+		{ "index":11,"type":1,"rolename":"NULL","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":-5,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+"53":
+{
+	"id":53,
+	"in": 0,
+	"bg":"教室3",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"今天早课，你跟天底下最好的舍友收拾好东西刚要下楼， 最近淘宝有促销活动，你们边走边聊。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"你","content":"等一下10点，鞋子就要开抢了，你抢不抢？","nextindex":2},
+		{ "index":2,"type":0,"rolename":"天底下最好的舍友","content":"抢啊。不过我的不好抢，我的码数库存只有一百多双了，估计很难抢到啊。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"你","content":"应该还好吧，可以试试的。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"NULL","content":"突然你手机震动了一下，隔壁宿舍的同学让你帮他占两个位置。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"NULL","content":"你随手回了一个OK。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"那个XXX叫我帮他占两个位置，你等下记得提醒我一下哦。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"天底下最好的舍友","content":"行。我们刚才聊到哪里了？","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"我们聊到......","nextindex":9},
+		{ "index":9,"type":0,"rolename":"NULL","content":"就这样你和天底下最好的舍友一路聊到了教室。到了教室一坐下来还是继续聊。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"那这样一算，我要买好多东西啊。我得算一下买完之后，生活费够不够，不然到时候到月末没钱就惨了。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"天底下最好的舍友","content":"还好吧，你就买鞋子和外套而已，应该够吧？","nextindex":12},
+		{ "index":11,"type":0,"rolename":"你","content":"我还是算算吧。","nextindex":13},
+		{ "index":12,"type":0,"rolename":"NULL","content":"突然，你看到XXX从前门走进来，突然想起来忘记帮他占位置了。","nextindex":14},
+		{ "index":13,"type":0,"rolename":"NULL","content":"这时候班级里人很多，基本上没什么位置了，你很懊恼，和XXX对视了一下，口型告诉他你忘记帮他占位置了。","nextindex":15},
+		{ "index":14,"type":0,"rolename":"NULL","content":"他只能坐到最后一排去了。","nextindex":16},
+		{ "index":15,"type":0,"rolename":"NULL","content":"你答应了别人，但是又没有做到，感到十分惭愧。你一直想着下课跟他道歉一下，课都没有好好听。","nextindex":17},
+		{ "index":16,"type":1,"rolename":"NULL","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{	
+		"查看结果":{"nextindex":-1,"results":{"study":-5,"reason":0,"spirit":0,"social":-10,"money":0},"elseresult":null}
+	}
+},
+"54":
+{
+	"id":54,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"你","content":"嘿嘿，下午没课了，太舒服了。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"天底下最好的舍友","content":"下午可以在床上玩手机玩一下午，什么时候睡就什么时候睡，想什么时候起就什么时候起。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"玩什么手机啊，出去玩啊！","nextindex":3},
+		{ "index":3,"type":0,"rolename":"天底下最好的舍友","content":"有什么好玩的地方？","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"去看电影啊，《幸福者联盟5》看不看？","nextindex":5},
+		{ "index":5,"type":0,"rolename":"天底下最好的舍友","content":"去啊，我们先回去休息一会儿再去吧？","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"好。我们顺便问问他们俩去不去。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"NULL","content":"你手机震动了一下，拿起一看。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"QQ","content":"班长：下午3点来玫瑰园开会哦，我们商量一下实践作业的事情。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"QQ","content":"你：收到。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"啊！！班长让我下午去开会。讨论大作业的事情。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"天底下最好的舍友","content":"哦豁，那你没法去了。我刚才问了他俩，他们要去，那我跟他们一起去了。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"你","content":"555你们要抛弃我吗QAQ！","nextindex":13},
+		{ "index":13,"type":0,"rolename":"天底下最好的舍友","content":"没事没事的啊，你放心，回来我会跟你剧透的。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"你","content":"？？？倒也不必！你的良心不会痛吗？！","nextindex":15},
+		{ "index":15,"type":0,"rolename":"天底下最好的舍友","content":"好啦好啦，给你带爆米花回来。","nextindex":16},
+		{ "index":16,"type":0,"rolename":"你","content":"求代购肉松小贝！","nextindex":17},
+		{ "index":17,"type":0,"rolename":"天底下最好的舍友","content":"OKOK","nextindex":18},
+		{ "index":18,"type":1,"rolename":"NULL","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+"55":
+{
+	"id":55,
+	"in": 0,
+	"bg":"主界面1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"今天没什么事，你坐在宿舍椅子上，看到桌面那么乱，就想着整理一下。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"NULL","content":"一整理就停不下来了。整理完桌面整理架子，理完架子又开始整理衣柜。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"NULL","content":"天底下最好的舍友原本在自己的椅子上坐着，看到你整理得那么起兴，她也跟着整理起来了。·","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"天底下最好的舍友开始叠起了衣服。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"你好像还有很多衣服干了挂在阳台，顺便收下了叠好呗，这样也好晾衣服。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"天底下最好的舍友","content":"我收下了没地方放啊。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"你衣服好多啊。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"天底下最好的舍友","content":"对啊，我衣柜满满的，都放不下了。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"QQ","content":"你可以挂咸鱼上卖啊，你之前不是在咸鱼上卖了很多。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"天底下最好的舍友","content":"算了，太麻烦了，之前挂在咸鱼上，一堆人来问，要砍价又要包邮的，太麻烦了。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"好吧，那你打算扔掉？","nextindex":11},
+		{ "index":11,"type":0,"rolename":"天底下最好的舍友","content":"没有，我打算捐出去。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"你","content":"捐出去？怎么捐啊？","nextindex":13},
+		{ "index":13,"type":0,"rolename":"天底下最好的舍友","content":"学校里有挺多旧衣回收箱，我看26号29号楼楼下都有。我整理整理，改天有空捐出去。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"你","content":"这样啊，我好像也有一些不穿的衣服，我整理一下，到时候我们一起拿过去。","nextindex":15},
+		{ "index":15,"type":0,"rolename":"天底下最好的舍友","content":"好。","nextindex":16},
+		{ "index":16,"type":1,"rolename":"NULL","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{	
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+"56":
+{
+	"id":56,
+	"in": 0,
+	"bg":"教室1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"老师上周有通知过要小测，但你忘记了。老师上课提起你才想起来。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"NULL","content":"你往左右看，没看到附近有相熟的同学，没人能帮你，你只能硬着头皮写了。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"NULL","content":"小测题目你几乎都不会，没办法，你胡乱写了交上去。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"庄梓萱","content":"嘿，你小测做得怎么样？我最后一题没做出来，你做出来了吗？","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"别提了，我都不会。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"庄梓萱","content":"怎么不会，有些题目是上次的作业题啊，你不是交了作业了吗？","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"交是交了，但不是我自己写的。前天我在看一部电影，看着看着入迷了，看完都十一点了。太困了，不想写作业，就抄了我舍友的作业。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"庄梓萱","content":"那你小测题都没做出来吗？","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"我都不会，乱写交上去了。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"庄梓萱","content":"小测成绩跟平时分挂钩的，而且好像占比还挺大的。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"后悔，现在就是十分的后悔。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"庄梓萱","content":"不过一次小测没考好应该还好，老师好像说他这学期要有4次小测。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"你","content":"啊，什么时候还有小测啊？","nextindex":13},
+		{ "index":13,"type":0,"rolename":"庄梓萱","content":"好像是下下周。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"你","content":"那我要赶紧回去学习了。你回宿舍吗？","nextindex":15},
+		{ "index":15,"type":0,"rolename":"庄梓萱","content":"不回，我想去图书馆自习。 ","nextindex":16},
+		{ "index":16,"type":0,"rolename":"你","content":"图书馆啊，我也有点想去。 ","nextindex":17},
+		{ "index":17,"type":0,"rolename":"庄梓萱","content":"那一起去吧，现在去应该还有位置。 ","nextindex":18},
+		{ "index":18,"type":0,"rolename":"你","content":"我会宿舍拿下书，你先去，帮我也占个位置。 ","nextindex":19},
+		{ "index":19,"type":0,"rolename":"庄梓萱","content":"好，那我等下把位置发给你。 ","nextindex":20},
+		{ "index":20,"type":0,"rolename":"你","content":"好的拜拜。 ","nextindex":21},
+		{ "index":21,"type":0,"rolename":"庄梓萱","content":"拜拜。 ","nextindex":22},
+		{ "index":22,"type":1,"rolename":"NULL","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{	
+		"查看结果":{"nextindex":-1,"results":{"study":-10,"reason":0,"spirit":0,"social":-10,"money":0},"elseresult":null}
+	}
+},
+"57":
+{
+	"id":57,
+	"in": 0,
+	"bg":"操场2",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"过几天就要测八百米了，部门群里面都在约去操场跑步。你也想一起去。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"NULL","content":"你有事耽搁了，迟到了5分钟，到操场的时候人特别多，你找了一会儿才早到部门的小伙伴们。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"你们都在做准备运动了啊？","nextindex":0},
+		{ "index":3,"type":0,"rolename":"部门学姐","content":"对啊，我们都做了好一会儿了，差不多行了，你也赶紧热身一下，我们先去跑了。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"我跟你们一起跑吧，我不想做热身运动了。","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"部门学姐","content":"做一下吧，不然容易受伤。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"应该不会的，我平常也有运动。","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"部门学姐","content":"那行吧。那我们开始跑吧。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"NULL","content":"你和部门的小伙伴一起跑了起来，第一圈跑得很快很顺利，到第二圈一不小心就扭到脚了。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"部门学姐","content":"你没事吧？怎么样，你动一下脚，看看伤到哪了？","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"没事，应该就是脚踝扭了一下，回去敷一下药就好了。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"部门学姐","content":"那就好，我找两个人扶你回宿舍吧。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"你","content":"没事没事，我自己回去就行了，不用麻烦了。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"部门学姐","content":"还是找两个人扶一下吧，你这样走回去，我怕明天伤得更重。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"你","content":"好的，谢谢学姐了。","nextindex":15},
+		{ "index":15,"type":0,"rolename":"NULL","content":"两个同学扶你回去，你十分感谢他们。 ","nextindex":16},
+		{ "index":16,"type":1,"rolename":"NULL","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":-20,"social":5,"money":0},"elseresult":null}
+	}
+},
+"58":
+{
+	"id":58,
+	"in": 0,
+	"bg":"主界面1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"下午第一节课是体育课，还有十五分钟就要上课了，此时你还躺在床上，你选择","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"翘课|上课去","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"翘课翘课，体育课本来就可有可无，午睡它不香吗？","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"你又睡了过去，但不巧老师点名了，舍友的QQ私信你没能看到，你被扣了平时分。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"NULL","content":"艰难起床，去上体育课。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"NULL","content":"又是平平无奇的一节体育课，老师点名了，你庆幸自己没有翘课。","nextindex":-1}
+	],
+	"sequence":{
+		"翘课":{"nextindex":2,"results":{"study":-10,"reason":-5,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"上课去":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+"59":
+{
+	"id":59,
+	"in": 0,
+	"bg":"奶茶店",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"学校新开了一家奶茶店，开业福利转发说说，点赞超过八个任意奶茶买一送一。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"NULL","content":"此时你手里正提着两杯奶茶，打算送一杯给别人。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你拿出了手机","nextindex":3},
+		{ "index":3,"type":1,"rolename":"NULL","content":"在宿舍群问问|私聊天底下最好的舍友","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"甄舍友","content":"我我我我！","nextindex":5},
+		{ "index":5,"type":0,"rolename":"天底下最好的舍友","content":"姐姐康康我~~","nextindex":6},
+		{ "index":6,"type":0,"rolename":"贾舍友","content":"我也想喝","nextindex":7},
+		{ "index":7,"type":0,"rolename":"NULL","content":"尴尬，最后大家都不要了。你留了一杯当夜宵喝，结果失眠了。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"在不？奶茶店做活动多送了一杯奶茶，你要不要？","nextindex":9},
+		{ "index":9,"type":0,"rolename":"天底下最好的舍友","content":"emmm不太好吧","nextindex":10},
+		{ "index":10,"type":1,"rolename":"NULL","content":"甭客气！|那算了","nextindex":-1},
+		{ "index":11,"type":0,"rolename":"你","content":"不要白不要，我快到宿舍了，给你顺带送过去？","nextindex":12},
+		{ "index":12,"type":0,"rolename":"天底下最好的舍友","content":"啊，好的。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"NULL","content":"天底下最好的舍友接受了你送的奶茶。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"NULL","content":"你随便找个路人把奶茶送出去了。","nextindex":-1}
+	],
+	"sequence":{
+		"在宿舍群问问":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":-10,"social":-10,"money":-10},"elseresult":null},
+		"私聊天底下最好的舍友":{"nextindex":8,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"甭客气！":{"nextindex":11,"results":{"study":0,"reason":0,"spirit":0,"social":15,"money":-10},"elseresult":null},		
+		"那算了":{"nextindex":14,"results":{"study":0,"reason":0,"spirit":0,"social":5,"money":-10},"elseresult":null}
+	}
+},
+"60":
+{
+	"id":60,
+	"in": 0,
+	"bg":"校道1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"早上挪车的时候一不小心把别人的车碰倒了，因为时间匆忙没有扶起来，结果中午吃饭的时候发现自己被挂到表白墙了。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"假装无事发生|去联系车主赔偿道歉（￥100）|找车主理论","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"只要我不说，就没有人知道","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"然鹅舍友见证了一切","nextindex":4},
+		{ "index":4,"type":0,"rolename":"NULL","content":"车主原谅了你，并收了你100块大洋","nextindex":5},
+		{ "index":5,"type":0,"rolename":"NULL","content":"吵了一架，又被挂了一次，又气又无奈","nextindex":-1}
+	],
+	"sequence":{
+		"假装无事发生":{"nextindex":2,"results":{"study":0,"reason":-5,"spirit":0,"social":-10,"money":0},"elseresult":null},
+		"去联系车主赔偿道歉（￥100）":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":-100},"elseresult":null},
+		"找车主理论":{"nextindex":5,"results":{"study":0,"reason":-10,"spirit":-10,"social":-10,"money":0},"elseresult":null}
+	}
+},
+"61":
+{
+	"id": 61,
+	"in": 0,
+	"bg":"食堂1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"今天你去食堂吃饭，看到食堂外面贴着招聘启事，食堂在招收打菜和送餐的兼职人员","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"你只想来吃饭而已|你应聘打菜员|你应聘送餐","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"null","content":"你放学后就马上赶到食堂兼职，窗口比较小，很多工作人员挤来挤去，一不小心衣服上就溅到了许多菜汁。","nextindex":-1},
+		{ "index":3,"type":0,"rolename":"null","content":"外卖订单很多你赶紧打包好，打算送出，订单有点分散。","nextindex":4},
+		{ "index":4,"type":1,"rolename":"null","content":"先下单的先送|地址相近的一起送","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"null","content":"你按下单的顺序送外卖，虽然所有的订单都按时送出了，但是你也累得不轻。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"null","content":"后来你学会了跟其他送餐员协调订单，调整到每个人的单都较为集中，省时省力。","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"null","content":"你先送地址较相近的外卖，但是有一两单超时太久了，被退单了","nextindex":8},
+		{ "index":8,"type":0,"rolename":"null","content":"后来你学会了跟其他送餐员协调一下订单，调整到每个人的单都较为集中，省时省力。","nextindex":-1}
+	],
+	"sequence":{
+		"你只想来吃饭而已":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"你应聘打菜员":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":80},"elseresult":null},
+		"先下单的先送":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":150},"elseresult":null},
+		"地址相近的一起送":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":100},"elseresult":null}
+	}
+},
+"62":
+{
+	"id": 62,
+	"in": 0,
+	"bg":"教室2",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"十点十分，你坐在教室里思考你今天要吃什么？","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"点外卖￥10）|食堂","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"null","content":"回到宿舍后，外卖还没有送达。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"null","content":"外卖到一点才送到，你来不及午休了，下午上课没精神。","nextindex":-1},
+		{ "index":4,"type":1,"rolename":"null","content":"紫荆园的基本饭菜|玫瑰园的风味小吃|丁香园的饭菜","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"你","content":"紫荆园的饭真香！","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"你","content":"玫瑰园的饭真香！","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"你","content":"丁香园的饭真香！","nextindex":-1}
+	],
+	"sequence":{
+		"点外卖￥10）":{"nextindex":2,"results":{"study":-10,"reason":0,"spirit":-10,"social":0,"money":-10},"elseresult":null},
+		"食堂":{"nextindex":4,"results":{"study":5,"reason":-4,"spirit":1,"social":2,"money":-50},"elseresult":null},
+		"紫荆园的基本饭菜":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":-5},"elseresult":null},
+		"玫瑰园的风味小吃":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":-15},"elseresult":null},
+		"丁香园的饭菜":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":-10},"elseresult":null}
+	}
+},
+"63":
+{
+	"id": 63,
+	"in": 0,
+	"bg":"主界面1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"任务发布者：一个顺丰快递到19号楼，带价私。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"不接|接","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"null","content":"你今天下午没课，你躺在床上玩手机，看了一眼任务群就退出QQ。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"null","content":"快到饭点了。","nextindex":4},
+		{ "index":4,"type":1,"rolename":"null","content":"一点都不想出门|出门","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"null","content":"你正好在X团上领了红包，点了一份你最爱的水煮肉片，继续在宿舍休息。","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"null","content":"肚子实在是太饿了，你收拾了一下自己就去食堂吃你最爱的水煮肉片了。","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"QQ","content":"你（私聊）：5元，行不？","nextindex":8},
+		{ "index":8,"type":0,"rolename":"QQ","content":"发布者（私聊）：可","nextindex":9},
+		{ "index":9,"type":0,"rolename":"null","content":"你马上就到35号楼后面的快递中心代领快递，领到快递你傻眼了，居然是一个巨大的箱子。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"null","content":"你把箱子放在车前面，晃晃悠悠地带到了19号楼。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"QQ","content":"你：同学，我到19号楼楼下了，你门牌号多少？","nextindex":12},
+		{ "index":12,"type":0,"rolename":"QQ","content":"发布者：6XX室。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"QQ","content":"你：好吧……","nextindex":14},
+		{ "index":14,"type":0,"rolename":"null","content":"你认命地把箱子搬上六楼...","nextindex":15},
+		{ "index":15,"type":0,"rolename":"null","content":"你发出感慨：赚钱不容易啊！","nextindex":-1}
+	],
+	"sequence":{
+		"不接":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"接":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":5},"elseresult":null},
+		"一点都不想出门":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":10,"social":0,"money":-20},"elseresult":null},
+		"出门":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":-15},"elseresult":null}
+	}
+},
+"64":
+{
+	"id": 64,
+	"in": 0,
+	"bg":"教室1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"晚自习结束，你还剩下一个ddl要赶，正准备回宿舍继续赶，收到了朋友的QQ消息。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"齐修","content":"嘿！一起去贡茶狼人杀吗","nextindex":2},
+		{ "index":2,"type":1,"rolename":"null","content":"一口答应|找借口拒绝","nextindex":-1},
+		{ "index":3,"type":0,"rolename":"你","content":"那必须的，加我一个加我一个！","nextindex":4},
+		{ "index":4,"type":0,"rolename":"null","content":"通宵打了一晚上狼人杀，ddl没能赶上，第二天听课状态很糟糕，被辅导员抓到上课睡觉。真是祸不单行。","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"你","content":"额……我还有作业要写。","nextindex":6},
+		{ "index":6,"type":1,"rolename":"null","content":"半推半就|不耐烦地拒绝|委婉拒绝","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"你","content":"可是……这是记平时分的，占比很高。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"同学A","content":"害，就这一次，怕什么？","nextindex":9},
+		{ "index":9,"type":0,"rolename":"你","content":"好吧……","nextindex":10},
+		{ "index":10,"type":0,"rolename":"null","content":"玩到了深夜一两点，但不是很痛快，半抄半赶地提交了作业，第二天昏昏欲睡。","nextindex":-1},
+		{ "index":11,"type":0,"rolename":"你","content":"呵呵。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"null","content":"齐修没有再回复你，并且再也没来找你。你赶完了ddl，但在心里也有一丝丝的愧疚。","nextindex":-1},
+		{ "index":13,"type":0,"rolename":"你","content":"害，我这不是迫不得已吗，下次一定下次一定。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"同学A","content":"一次而已，给点面子呗。","nextindex":15},
+		{ "index":15,"type":0,"rolename":"你","content":"哇，这老师贼恐怖，憋说了，不交就挂科了。","nextindex":16},
+		{ "index":16,"type":0,"rolename":"同学A","content":"好吧。","nextindex":17},
+		{ "index":17,"type":0,"rolename":"null","content":"你顺利完成了ddl","nextindex":-1}
+	],
+	"sequence":{
+		"一口答应":{"nextindex":3,"results":{"study":-10,"reason":-10,"spirit":-15,"social":10,"money":0},"elseresult":null},
+		"找借口拒绝":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"半推半就":{"nextindex":7,"results":{"study":0,"reason":-10,"spirit":-15,"social":15,"money":0},"elseresult":null},
+		"不耐烦地拒绝":{"nextindex":11,"results":{"study":0,"reason":10,"spirit":0,"social":-15,"money":0},"elseresult":null},
+		"委婉拒绝":{"nextindex":13,"results":{"study":0,"reason":10,"spirit":0,"social":-10,"money":0},"elseresult":null}
+	}
+},
+"65":
+{
+	"id": 65,
+	"in": 0,
+	"bg":"食堂1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"下午5、6节课有很重要的专业课，但老师总是讲得你云里雾里，每次都要靠课后复习才能理解透彻。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"null","content":"现在是中午十二点十分，你在食堂排队，排在前头的齐修发现了你。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"齐修","content":"这么巧？下午一起去四坊六巷玩吧！","nextindex":3},
+		{ "index":3,"type":1,"rolename":"null","content":"成！反正课都听不懂。|不行，有课呢。","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"null","content":"成功翘课，老师也没点名，开开心心地玩了一下午","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"齐修","content":"有课就翘嘛，问题不大。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"啊这，不好吧。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"齐修","content":"怕什么？只要胆子大，天天寒暑假。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"好，好吧。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"null","content":"不是很痛快地玩了一个下午，内心备受煎熬。","nextindex":-1}
+	],
+	"sequence":{
+		"成！反正课都听不懂。":{"nextindex":4,"results":{"study":0,"reason":-10,"spirit":15,"social":10,"money":0},"elseresult":null},
+		"不行，有课呢。":{"nextindex":5,"results":{"study":0,"reason":-15,"spirit":0,"social":10,"money":0},"elseresult":null}
+	}
+},
+"66":
+{
+	"id": 66,
+	"in": 0,
+	"bg":"教室1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"校选课老师点名，齐修私聊你","nextindex":1},
+		{ "index":1,"type":0,"rolename":"QQ","content":"齐修：爸爸救命！！！","nextindex":2},
+		{ "index":2,"type":0,"rolename":"QQ","content":"齐修：帮我喊下到球球了QAQ","nextindex":3},
+		{ "index":3,"type":1,"rolename":"null","content":"接受|拒绝","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"QQ","content":"你：行！就凭你这声爸爸我答应了！","nextindex":5},
+		{ "index":5,"type":0,"rolename":"null","content":"老师采用了严格一对一的点名形式，你顶替了齐修，自己被记了旷课。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"null","content":"你后知后觉地意识到自己只是齐修众多工具人中的一个，之后你们也没什么联系了","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"QQ","content":"你：现在过来还来得及。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"QQ","content":"齐修：我还在床上。。。。救救孩子！","nextindex":9},
+		{ "index":9,"type":0,"rolename":"QQ","content":"齐修：爱是会消失的吗QAQ","nextindex":10},
+		{ "index":10,"type":0,"rolename":"QQ","content":"你：快来！","nextindex":11},
+		{ "index":11,"type":0,"rolename":"QQ","content":"齐修：……","nextindex":12},
+		{ "index":12,"type":0,"rolename":"null","content":"齐修还是没来上课，同时发现你不像ta想象中的那么“好用”，渐渐也不找你玩了。","nextindex":-1}
+	],
+	"sequence":{
+		"接受":{"nextindex":4,"results":{"study":0,"reason":-15,"spirit":0,"social":10,"money":0},"elseresult":null},
+		"拒绝":{"nextindex":7,"results":{"study":0,"reason":10,"spirit":0,"social":-15,"money":0},"elseresult":null}
+	}
+},
+"67":
+{
+	"id":67,
+	"in": 0,
+	"bg":"教室1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"专业课上，听得昏昏欲睡的你突然看到暗着的手机屏幕亮了起来，定睛一看原来是齐修给自己发消息了。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"齐修","content":"哈喽~~","nextindex":2},
+		{ "index":2,"type":0,"rolename":"齐修","content":"在吗在吗","nextindex":3},
+		{ "index":3,"type":0,"rolename":"你","content":"我在上课","nextindex":4},
+		{ "index":4,"type":0,"rolename":"齐修","content":"听什么课呀，期末突击几天不就好了。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"你","content":"害，这是专业课，没那么简单就能混过去的。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"齐修","content":"大不了下课后把ppt过一遍不就好了，下午有空吗？","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"下午没课。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"齐修","content":"陪我去联谊吧！！","nextindex":9},
+		{ "index":9,"type":0,"rolename":"你","content":"再说吧。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"齐修","content":"还是不是朋友了？一点小事也要犹豫。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"你","content":"行8。","nextindex":12},
+		{ "index":12,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":-10,"reason":0,"spirit":0,"social":15,"money":0},"elseresult":null}
+	}
+},
+"68":
+{
+	"id":68,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"QQ","content":"辅导员：今日签到异常","nextindex":1},
+		{ "index":1,"type":0,"rolename":"QQ","content":"你：我记得我签了啊","nextindex":2},
+		{ "index":2,"type":0,"rolename":"QQ","content":"辅导员：是签到了，表格填错了。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"QQ","content":"你：我马上改。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"QQ","content":"辅导员：好。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"QQ","content":"你：改好啦。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"QQ","content":"辅导员：下次注意点。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"QQ","content":"你：好。","nextindex":8},
+		{ "index":8,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":5,"social":10,"money":0},"elseresult":null}
+	}
+},
+"69":
+{
+	"id":69,
+	"in": 0,
+	"bg":"操场2",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"你","content":"这么晚了还有人踢球啊。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"天底下最好的舍友","content":"嗯……","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"感觉足球队的队员一天到晚都在踢球欸，他们不累吗？","nextindex":3},
+		{ "index":3,"type":0,"rolename":"天底下最好的舍友","content":"……我，我说，一边跑一边讲话你不累吗？","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"啊不好意思","nextindex":5},
+		{ "index":5,"type":0,"rolename":"null","content":"十分钟过后","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"风吹起来好舒服啊~","nextindex":7},
+		{ "index":7,"type":0,"rolename":"天底下最好的舍友","content":"你看天上","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"怎么了？","nextindex":9},
+		{ "index":9,"type":0,"rolename":"天底下最好的舍友","content":"今天的天空好美，像宣纸上晕开的浅墨。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"是哎。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"天底下最好的舍友","content":"有点想家了……","nextindex":12},
+		{ "index":12,"type":0,"rolename":"你","content":"唉我也是。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"你","content":"等下去学生街撸串吧。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"天底下最好的舍友","content":"嗯。","nextindex":15},
+		{ "index":15,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":15,"money":0},"elseresult":null}
+	}
+},
+"70":
+{
+	"id":70,
+	"in": 0,
+	"bg":"主界面1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"晚上没课，你在床上打皇者荣耀。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"你","content":"法师来下路抓人！！","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"打野你别蹭我线啊，没看到我前期崩了吗？","nextindex":3},
+		{ "index":3,"type":0,"rolename":"你","content":"辅助开局大辅？搞笑吗？","nextindex":4},
+		{ "index":4,"type":0,"rolename":"天底下最好的舍友","content":"……","nextindex":5},
+		{ "index":5,"type":0,"rolename":"你","content":"别抓我别抓我别抓我——啊——","nextindex":6},
+		{ "index":6,"type":0,"rolename":"天底下最好的舍友","content":"可以小声一点吗？emmm我耳朵快聋了。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"啊啊啊我死了5555","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"刚才你说什么了？我没听清。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"天底下最好的舍友","content":"没……","nextindex":10},
+		{ "index":10,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":-10,"spirit":0,"social":-10,"money":0},"elseresult":null}
+	}
+},
+"71":
+{
+	"id":71,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"半夜在宿舍赶大作业，无从下手。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"null","content":"这时外面开始飘雨，越下越大，听着密集的雨声你突然有一丝丝的难过，你发了条不知所以的朋友圈。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"相亲相爱一家人","content":"爸爸：这么晚了还没睡啊。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"相亲相爱一家人","content":"你：嗯，写作业呢。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"相亲相爱一家人","content":"妈妈：别熬夜了，早点睡吧。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"相亲相爱一家人","content":"你：我也想啊，但是明天就要交了😂","nextindex":6},
+		{ "index":6,"type":0,"rolename":"相亲相爱一家人","content":"妈妈：别哭了，加把劲干活。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"相亲相爱一家人","content":"你：哈哈哈，只是个表情啦，没哭没哭","nextindex":8},
+		{ "index":8,"type":0,"rolename":"相亲相爱一家人","content":"爸爸：红包","nextindex":9},
+		{ "index":9,"type":0,"rolename":"相亲相爱一家人","content":"爸爸：吃点好的继续干活，无论什么在时候我跟你妈都会支持你的💪","nextindex":10},
+		{ "index":10,"type":0,"rolename":"相亲相爱一家人","content":"你：谢谢爸妈。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"相亲相爱一家人","content":"妈妈：😁","nextindex":12},
+		{ "index":12,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":100},"elseresult":null}
+	}
+},
+"72":
+{
+	"id":72,
+	"in": 0,
+	"bg":"奶茶店",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"上班上到一半下起了小雨，天灰蒙蒙的，心情也没那么明媚了。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"赵茜茹","content":"啊下雨了……","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"难顶，下午还想着晒棉被呢。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"赵茜茹","content":"好烦呐，我没带伞……","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"我带了，等下你直接回宿舍吗？","nextindex":5},
+		{ "index":5,"type":0,"rolename":"赵茜茹","content":"对的。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"那我送你去吧，反正也顺路。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"赵茜茹","content":"！太感谢了！","nextindex":8},
+		{ "index":8,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":5,"money":0},"elseresult":null}
+	}
+},
+"73":
+{
+	"id":73,
+	"in": 0,
+	"bg":"校道1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"家教：美好的周末从兼职开始，你一大早搭乘地铁，兴冲冲地前往家教对象处辅导，不想她突然发消息说学校有事，问你能不能下午三点钟再来。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"同学b","content":"表明自己的态度。|有点不开心，但还是答应了。","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"QQ","content":"你：希望你下次能准时，老实说我很生气。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"QQ","content":"胡艺语：{{{(>_<)}}}真的很抱歉！！我下次一定不会这样子了！","nextindex":4},
+		{ "index":4,"type":0,"rolename":"QQ","content":"你：行吧。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"null","content":"胡艺语非常愧疚地道歉，并保证下次一定准时。","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"QQ","content":"你：好吧，下次注意点。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"QQ","content":"胡艺语：对不起≧ ﹏ ≦","nextindex":8},
+		{ "index":8,"type":0,"rolename":"QQ","content":"你：害。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"null","content":"胡艺语和你道了歉。","nextindex":-1}
+	],
+	"sequence":{
+		"表明自己的态度。":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":0},"elseresult":null},
+		"有点不开心，但还是答应了。":{"nextindex":6,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null}
+	}
+},
+"74":
+{
+	"id":74,
+	"in": 0,
+	"bg":"主界面1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"一个人单打上分慢，于是你加了一个代练群，和固定的队友一起组队上分。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"null","content":"最近接到的单子多了，队友们商量着延长游戏时间到后半夜。你选择","nextindex":2},
+		{ "index":2,"type":1,"rolename":"null","content":"果断拒绝。|欣然答应。","nextindex":-1},
+		{ "index":3,"type":0,"rolename":"null","content":"游戏时间过长会影响学习，学习最重要。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"null","content":"你退出了代练群，自己找合适的时间玩游戏。","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"null","content":"你们玩游戏玩到太晚了，你睡眠不足导致听课效率下降，影响到学习。","nextindex":-1}
+	],
+	"sequence":{
+		"果断拒绝。":{"nextindex":3,"results":{"study":0,"reason":10,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"欣然答应。":{"nextindex":5,"results":{"study":-10,"reason":-10,"spirit":-15,"social":0,"money":100},"elseresult":null}
+	}
+},
+"75":
+{
+	"id":75,
+	"in": 0,
+	"bg":"卧室1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"每次进胡艺语家中总会有点膈应——实在是太乱了，今天也是一如既往地脏乱差，只是相比平时，胡艺语的家长也在。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"胡艺语的母亲","content":"老师，这次小语在期中测试的成绩并没有提高，我们商量了一下，想把课停了。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"啊？我记得艺语是进步了五分的。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"胡艺语的母亲","content":"都在及格线附近徘徊，有差吗？","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"艺语妈妈，英语这门学科不是靠几个星期的突击能一蹴而就的。我看艺语最近状态也不错，继续努力下去会考得更好的……","nextindex":5},
+		{ "index":5,"type":0,"rolename":"胡艺语的母亲","content":"打住，我不想再听你解释了，就这样吧。这星期的费用我会转给你的。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"胡艺语","content":"妈妈……我……我想再试试……","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"……","nextindex":8},
+		{ "index":8,"type":0,"rolename":"胡艺语的母亲","content":"我每天努力赚钱可不是为了让你在这事上糟蹋的！","nextindex":9},
+		{ "index":9,"type":0,"rolename":"你","content":"行吧，我走。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"胡艺语","content":"老师……我，我想继续被您辅导……","nextindex":11},
+		{ "index":11,"type":0,"rolename":"你","content":"不要自我放弃，以后有不懂的问题，可以在微信上问我，你自己也要好好学习。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"胡艺语","content":"唔，好的。","nextindex":13},
+		{ "index":13,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null}
+	}
+},
+"76":
+{
+	"id":76,
+	"in": 0,
+	"bg":"奶茶店",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"工作结束，赵茜茹约你一起去吃烤肉。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"赵茜茹","content":"一起去吃烤肉吧~","nextindex":2},
+		{ "index":2,"type":0,"rolename":"赵茜茹","content":"学生街新开了一家烤肉店，首周有优惠哦","nextindex":3},
+		{ "index":3,"type":1,"rolename":"NULL","content":"烤肉太贵了，委婉拒绝|虽然肉疼，还是答应了","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"你","content":"今天有约了，抱歉~","nextindex":5},
+		{ "index":5,"type":0,"rolename":"赵茜茹","content":"好吧。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"NULL","content":"赵茜茹没再说什么。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"行！我也好久没吃烤肉了","nextindex":8},
+		{ "index":8,"type":0,"rolename":"赵茜茹","content":"好嘞~","nextindex":9},
+		{ "index":9,"type":0,"rolename":"NULL","content":"和赵茜茹开开心心地搓了一顿，你把单给买了~~","nextindex":-1}
+	],
+	"sequence":{	
+		"烤肉太贵了，委婉拒绝":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":-10,"money":50},"elseresult":null},
+		"虽然肉疼，还是答应了":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":-50},"elseresult":null}
+	}
+},
+"77":
+{
+	"id":77,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"学业日渐繁忙，代练的强度终究太大，此时，你决定","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"学业要紧，先把代练放一放|不打紧不打紧，到时候期末突击就好了","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"学习状态得到了调整，但短期内没赚到钱。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"NULL","content":"继续高强度的游戏代练，美滋滋。","nextindex":-1}
+	],
+	"sequence":{	
+		"学业要紧，先把代练放一放":{"nextindex":2,"results":{"study":10,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"不打紧不打紧，到时候期末突击就好了":{"nextindex":3,"results":{"study":-15,"reason":-10,"spirit":0,"social":0,"money":100},"elseresult":null}
+	}
+},
+"78":
+{
+	"id":78,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"已经晚上12点了，但是天底下最好的舍友还在和队友连麦玩游戏。前几天也有这样的情况，你跟天底下最好的舍友讲过，她口头上答应了，但还是会再玩一会才安静下来。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"NULL","content":"跟她沟通一下|算了，就这样吧","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"你","content":"可以小声一点吗，有点晚了，明天还有早课。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"天底下最好的舍友","content":"好的好的，等完打完这局就不玩了。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"NULL","content":"过了一会，天底下最好的舍友终于安静下来了，你终于可以入睡了。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"NULL","content":"天底下最好的舍友玩游戏玩到了很晚，你一直睡不着，第二天上课一点精神都没有。","nextindex":-1}
+	],
+	"sequence":{	
+		"跟她沟通一下":{"nextindex":2,"results":{"study":0,"reason":10,"spirit":15,"social":0,"money":0},"elseresult":null},
+		"算了，就这样吧":{"nextindex":5,"results":{"study":-5,"reason":0,"spirit":-10,"social":-10,"money":0},"elseresult":null}
+	}
+},
+"79":
+{
+	"id":79,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"明天要做实验了，你一点准备都没有。新转来的同学是个大佬，你果断向他求助。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"同学","content":"明天要做实验几啊？","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"实验五","nextindex":3},
+		{ "index":3,"type":0,"rolename":"同学","content":"你有往届的参考资料吗？","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"有啊，等会我发给你。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"NULL","content":"第二天，在路上遇到了新同学。","nextindex":6},
+		{ "index":6,"type":1,"rolename":"NULL","content":"打一下招呼|假装没看到","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"你","content":"Hello","nextindex":8},
+		{ "index":8,"type":0,"rolename":"同学","content":"Hello","nextindex":9},
+		{ "index":9,"type":0,"rolename":"NULL","content":"同学热情地回应了，聊了一会才离开，你们熟悉了不少。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"NULL","content":"你不擅长交际，在网络上聊天还好，在现实中面对新朋友就比较害羞，刚想走过去，就听到同学跟你打招呼的声音。你们简单问候了一下，就分开了。","nextindex":-1}
+	],
+	"sequence":{	
+		"打一下招呼":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":0},"elseresult":null},
+		"假装没看到":{"nextindex":10,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":0},"elseresult":null}
+	}
+},
+"80":
+{
+	"id":80,
+	"in": 0,
+	"bg":"宿舍1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"今天是刘丽君舍友的生日，因为刘丽君的缘故，你也认识了她舍友。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"刘丽君","content":"今天是我舍友的生日，晚上一起去玩啊！","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"去哪啊？","nextindex":3},
+		{ "index":3,"type":0,"rolename":"刘丽君","content":"应该去永嘉唱歌吧。","nextindex":4},
+		{ "index":4,"type":1,"rolename":"NULL","content":"不去|去","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"你","content":"我去不了啊，明天要交大作业，我还没做完，晚上得加班加点赶啊。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"刘丽君","content":"没事，那个大作业随便做做就行了，反正有做，老师肯定不会让你挂科的。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"我还是做一下吧，万一到时候考试没考好，还能有平时分拉一下。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"刘丽君","content":"真的不去啊？","nextindex":9},
+		{ "index":9,"type":0,"rolename":"你","content":"实在是去不了，我等下去你们宿舍送生日礼物过去。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"行啊，我等下把作业做一下，晚点就去找你们。","nextindex":11}	,
+		{ "index":11,"type":0,"rolename":"刘丽君","content":"行那你快一点。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"NULL","content":"你和刘丽君他们在永嘉玩到了十点多，快到宿舍点名时间了。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"你","content":"咱们要回去了吗?十点多了。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"刘丽君","content":"才十点，再玩会。","nextindex":15},
+		{ "index":15,"type":0,"rolename":"你","content":"那要不我先回去，你们接着玩？","nextindex":16},
+		{ "index":16,"type":0,"rolename":"刘丽君","content":"一起玩啊，生日一年才一次啊，也是不天天这么玩，没事的。","nextindex":17},
+		{ "index":17,"type":0,"rolename":"你","content":"那好吧。","nextindex":18},
+		{ "index":18,"type":0,"rolename":"NULL","content":"过了一会，楼层点名的人找你问你在哪，宿舍楼有校晚点。","nextindex":19},
+		{ "index":19,"type":0,"rolename":"NULL","content":"没得玩了，大家赶紧收拾收拾回宿舍了。","nextindex":20},
+		{ "index":20,"type":0,"rolename":"NULL","content":"你回宿舍后还得洗头，搞到了很晚才休息，第二天在专业课上睡着了。","nextindex":-1}
+
+	],
+	"sequence":{	
+		"不去":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":0,"social":-10,"money":-100},"elseresult":null},
+		"去":{"nextindex":10,"results":{"study":-10,"reason":-10,"spirit":-10,"social":10,"money":0},"elseresult":null}
+	}
+},
+"81":
+{
+	"id":81,
+	"in": 0,
+	"bg":"教室4",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"这次的考试你的学习成绩一般，没有达到你预期的目标，你有点沮丧。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"回宿舍|去图书馆","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"null","content":"回到宿舍，舍友们都在，他们正在讨论这次的考试，舍友们这次考得都不错，心情很好，聊得很开心。","nextindex":3},
+		{ "index":3,"type":1,"rolename":"null","content":"加入她们|自己安安静静地待着","nextindex":-1},
+		{ "index":4,"type":0,"rolename":"你","content":"诶~，你们考得都很不错。我考的好差，太难过了","nextindex":5},
+		{ "index":5,"type":0,"rolename":"天底下最好的舍友","content":"没关系的，就一次考试而已，调整好心态，下周还有两场考试呢，加油。走，我请你喝奶茶去。","nextindex":6},
+		{ "index":6,"type":1,"rolename":"null","content":"去|不去","nextindex":-1},
+		{ "index":7,"type":0,"rolename":"你","content":"真的吗！爱你。","nextindex":-1},
+		{ "index":8,"type":0,"rolename":"你","content":"算了吧，还是在宿舍好好读书吧","nextindex":-1},
+		{ "index":9,"type":0,"rolename":"null","content":"天底下最好的舍友注意到你情绪不佳","nextindex":10},
+		{ "index":10,"type":0,"rolename":"天底下最好的舍友","content":"你没事吧？。","nextindex":11},
+		{ "index":11,"type":0,"rolename":"你","content":"没事，调整一下，过两天就好了","nextindex":-1},
+		{ "index":12,"type":0,"rolename":"null","content":"你到了图书馆发现图书馆人很多，大家安安静静地读书，只有书本翻页的细微声响，受环境影响，你很快就将悲伤化为动力，重新投入了学习。","nextindex":-1}
+	],
+	"sequence":{
+		"回宿舍":{"nextindex":2,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"自己安安静静地待着":{"nextindex":9,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":0},"elseresult":null},
+		"加入她们":{"nextindex":4,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"去":{"nextindex":7,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":0},"elseresult":null},
+		"不去":{"nextindex":8,"results":{"study":10,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"去图书馆":{"nextindex":12,"results":{"study":10,"reason":0,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+		
+},
+
+"82":
+{
+	"id":82,
+	"in": 0,
+	"bg":"校道1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"刚考完实践考试，你和天底下最好的舍友在回宿舍的路上。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"天底下最好的舍友","content":"唉~刚才我都做出来了，我还在那里瞎调，结果把实验结果调没了，只能重新调了。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"没事的，你最后不是做出来了嘛，做出来就肯定过了啊","nextindex":3},
+		{ "index":3,"type":0,"rolename":"天底下最好的舍友","content":"可是我好气啊，成绩评定综合完成时间和完成情况，越早做完肯定分数越高的。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"没事吧，保研也轮不上我们啊，哈哈哈哈。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"天底下最好的舍友","content":"就是很悲伤啊，这次考的是XX方法，我都复习到了，没能做出来就让人感觉很遗憾。","nextindex":6},
+		{ "index":6,"type":0,"rolename":"你","content":"！考了XX方法，我没用到啊，我完了，我好像做错了。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"天底下最好的舍友","content":"你没有用XX方法，那你用什么啊？","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"我用的是Z方法啊，我想起来了，考试的时候我觉得有一个条件有点奇怪，我以为没有用来着。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"天底下最好的舍友","content":"类型题上课老师讲过了啊。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"你","content":"5555~我错了，怎么办？","nextindex":11},
+		{ "index":11,"type":0,"rolename":"天底下最好的舍友","content":"应该没事吧...","nextindex":12},
+		{ "index":12,"type":0,"rolename":"你","content":"啊，我还早早做完就出来，我要是再检查一遍就好了。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"天底下最好的舍友","content":"应该不会吧，平时实验你也都有做，老师应该不会给你挂的。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"你","content":"我好害怕啊！要是挂了怎么办？实验可是没有补考的，只能重修了。","nextindex":15},
+		{ "index":15,"type":0,"rolename":"天底下最好的舍友","content":"之前老师好像说每次实验都有做，实验报告都有写的话肯定是能及格的。","nextindex":16},
+		{ "index":16,"type":0,"rolename":"你","content":"啊等等，等等我看一下我的实验报告有没有交","nextindex":17},
+		{ "index":17,"type":0,"rolename":"天底下最好的舍友","content":"有吗？","nextindex":18},
+		{ "index":18,"type":0,"rolename":"你","content":"交了，可是我还是害怕。。","nextindex":19},
+		{ "index":19,"type":0,"rolename":"天底下最好的舍友","content":"不会挂的，信我，你要是挂了我直播倒立。","nextindex":20},
+		{ "index":20,"type":0,"rolename":"你","content":"真的吗，要是我没挂，我请你喝奶茶。。","nextindex":21},
+		{ "index":21,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+		
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":-5,"reason":0,"spirit":0,"social":15,"money":0},"elseresult":null}
+	}
+},
+"83":
+{
+	"id":83,
+	"in": 0,
+	"bg":"教室4",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"你","content":"今天老师布置的作业写完了吗？","nextindex":1},
+		{ "index":1,"type":0,"rolename":"庄梓萱","content":"写完啦。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"可以借我看一下吗？","nextindex":3},
+		{ "index":3,"type":0,"rolename":"庄梓萱","content":"行，我找一下。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"null","content":"看了庄梓萱的作业你还是不理解。","nextindex":5},
+		{ "index":5,"type":1,"rolename":"null","content":"再次询问|直接抄就完事了","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"你","content":"可以教我一下吗？我还是不懂","nextindex":7},
+		{ "index":7,"type":0,"rolename":"庄梓萱","content":"哪一题？","nextindex":8},
+		{ "index":8,"type":0,"rolename":"你","content":"第二题，刚开始的式子懂，但是后面的推倒过程就不懂了","nextindex":9},
+		{ "index":9,"type":0,"rolename":"庄梓萱","content":"这个啊，你等会儿，我拿张纸写一个详细过程给你。。","nextindex":10},
+		{ "index":11,"type":0,"rolename":"你","content":"算了，就这样吧，大概了解一下应该就行了","nextindex":12},
+		{ "index":12,"type":0,"rolename":"null","content":"考试结束后……","nextindex":13},
+		{ "index":13,"type":0,"rolename":"庄梓萱","content":"考到原题了，当时你还问过我那题耶。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"你","content":"原题，哪里有原题？","nextindex":15},
+		{ "index":15,"type":0,"rolename":"庄梓萱","content":"倒数第二题跟你上次问我的那道差不多，就改了一点点。怎么？你没写出来吗？","nextindex":16},
+		{ "index":16,"type":0,"rolename":"你","content":"哦，你说那题啊。我写到第二步卡住了。啊 ！早知道我当时就应该认真看看的。","nextindex":-1},
+		{ "index":17,"type":0,"rolename":"null","content":"你放弃理解题目了，直接抄庄梓萱的作业上交了。","nextindex":18},
+		{ "index":18,"type":0,"rolename":"null","content":"考完试后。","nextindex":19},
+		{ "index":19,"type":0,"rolename":"庄梓萱","content":"考到原题，当时你还问过我那题。怎么样？考得还可以吧？","nextindex":20},
+		{ "index":20,"type":0,"rolename":"你","content":"对，是考到原题了，但是！我还是不会写T_T","nextindex":21},
+		{ "index":21,"type":0,"rolename":"庄梓萱","content":"啊？怎么就会？你没写出来吗？","nextindex":22},
+		{ "index":22,"type":0,"rolename":"你","content":"我上次不是很理解，我以为不会考的，就直接抄了答案，我现在好后悔啊！","nextindex":-1}
+		
+	],
+	"sequence":{
+		"再次询问":{"nextindex":6,"results":{"study":0,"reason":10,"spirit":0,"social":0,"money":0},"elseresult":null},
+		"直接抄就完事了":{"nextindex":17,"results":{"study":-15,"reason":-10,"spirit":0,"social":0,"money":0},"elseresult":null}
+	}
+},
+
+"84":
+{
+	"id":84,
+	"in": 0,
+	"bg":"教室1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"NULL","content":"你正在教室上课，这门课的老师讲得很仔细，你听得很认真。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"NULL","content":"但你后面的同学好像并不是很想听课，一直在讲话，吵得你没法好好听课。","nextindex":2},
+		{ "index":2,"type":0,"rolename":"NULL","content":"下课时你和庄梓萱聊天。","nextindex":3},
+		{ "index":3,"type":0,"rolename":"你","content":"你有没有觉得后面的同学很吵。","nextindex":4},
+		{ "index":4,"type":0,"rolename":"庄梓萱","content":"有一点。","nextindex":5},
+		{ "index":5,"type":0,"rolename":"你","content":"我刚才有一些都没有听到，诶~","nextindex":6},
+		{ "index":6,"type":0,"rolename":"庄梓萱","content":"哪里没听懂，我看看我会不会。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"就是这个.......","nextindex":8},
+		{ "index":8,"type":0,"rolename":"NULL","content":"庄梓萱热心地为你讲解了你不懂的地方。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"NULL","content":"第二节上课，后面的同学还是在讲话，庄梓萱转身跟后面的同学反映了一下，后面的同学不再说话了。下课后你和庄梓萱吃完饭后一起晚自习，学得很认真。","nextindex":10},
+		{ "index":10,"type":1,"rolename":"NULL","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{	
+		"查看结果":{"nextindex":-1,"results":{"study":10,"reason":0,"spirit":0,"social":5,"money":0},"elseresult":null}
+	}
+},
+"85":
+{
+	"id":85,
+	"in": 0,
+	"bg":"永嘉天地1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"今天是刘丽君舍友的生日，因为刘丽君的缘故，你也认识了她舍友。","nextindex":1},
+		{ "index":1,"type":0,"rolename":"刘丽君","content":"今天是我舍友的生日，晚上一起去玩啊！","nextindex":2},
+		{ "index":2,"type":0,"rolename":"你","content":"去哪啊？","nextindex":3},
+		{ "index":3,"type":0,"rolename":"刘丽君","content":"应该是要去永嘉唱歌吧。","nextindex":4},
+		{ "index":4,"type":1,"rolename":"null","content":"你有事（￥50）|去（￥200）","nextindex":-1},
+		{ "index":5,"type":0,"rolename":"你","content":"你们几点开始啊？","nextindex":-1},
+		{ "index":6,"type":0,"rolename":"刘丽君","content":"晚上就在那边吃饭，吃完就在那边玩，大概5点多去吧。","nextindex":7},
+		{ "index":7,"type":0,"rolename":"你","content":"我可能不能一直都陪你们玩，我今天还约了别人啊，不过我就在附近，到时候我过去就去找你们，然后把礼物送给她。","nextindex":8},
+		{ "index":8,"type":0,"rolename":"刘丽君","content":"叫你朋友一起过来玩啊。","nextindex":9},
+		{ "index":9,"type":0,"rolename":"你","content":"不了，你舍友她也不认识，带她去过生日有点奇怪，下次再组个局，我再介绍你们认识。","nextindex":10},
+		{ "index":10,"type":0,"rolename":"刘丽君","content":"也行。","nextindex":-1},
+		{ "index":11,"type":0,"rolename":"你","content":"行啊，我收拾一下，晚点就去找你们。","nextindex":12},
+		{ "index":12,"type":0,"rolename":"刘丽君","content":"行，那你快一点。","nextindex":13},
+		{ "index":13,"type":0,"rolename":"null","content":"你和刘丽君他们在永嘉玩到了十点多，快到宿舍点名时间了。","nextindex":14},
+		{ "index":14,"type":0,"rolename":"你","content":"咱们要回去了吗?十点多了。","nextindex":15},
+		{ "index":15,"type":0,"rolename":"刘丽君","content":"才十点，再玩会。","nextindex":16},
+		{ "index":16,"type":0,"rolename":"你","content":"那要不我先回去，你们接着玩？","nextindex":17},
+		{ "index":17,"type":0,"rolename":"刘丽君","content":"一起玩啊，生日一年才一次啊，也不天天这么玩，没事的。","nextindex":18},
+		{ "index":18,"type":0,"rolename":"你","content":"那好吧。","nextindex":19},
+		{ "index":19,"type":0,"rolename":"null","content":"你们玩着玩着就错过了晚点，今天晚点查得又比较严，你们迟归被辅导员发现了，被罚了写检讨。","nextindex":-1}
+	],
+	"sequence":{
+		"你有事（￥50）":{"nextindex":5,"results":{"study":0,"reason":0,"spirit":0,"social":10,"money":-50},"elseresult":null},
+		"去（￥200）":{"nextindex":11,"results":{"study":0,"reason":-10,"spirit":-10,"social":20,"money":-200},"elseresult":null}
+	}
+},
+"86":
+{
+	"id":86,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"你到京元吃饭，看到青春广场搭满了帐篷，人头攒动。各个社团都在纳新，各出奇招吸引新生。","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"朝一个感兴趣的社团走去|不理会，直接进了京元","nextindex":-1},
+		{ "index":2,"type":0,"rolename":"NULL","content":"你看到喜欢的社团的招牌，直接朝这个社团走了过去","nextindex":3},
+		{ "index":3,"type":0,"rolename":"社团的学长学姐","content":"同学可以来看一下我们社团哦，我们社团有很多活动哦！","nextindex":4},
+		{ "index":4,"type":0,"rolename":"你","content":"你们的活动有哪些啊？","nextindex":5},
+		{ "index":5,"type":0,"rolename":"学长学姐","content":"我们的活动主要是......","nextindex":6},
+		{ "index":6,"type":0,"rolename":"null","content":"社团的学长学姐热情邀请地向你介绍他们的社团活动，你很感兴趣，参加了他们的活动。","nextindex":-1}
+	],
+	"sequence":{
+		"朝一个感兴趣的社团走去":{"nextindex":2,"results":{"study":0,"reason":5,"spirit":0,"social":10,"money":0},"elseresult":null},
+		"不理会，直接进了京元":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":-5,"money":0},"elseresult":null}
+		
+	}
+},
+"100":
+{
+	"id":100,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"勤工俭学","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":0,"social":0,"money":70},"elseresult":null}
+	}
+},
+"101":
+{
+	"id":101,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"认真上课","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":15,"reason":0,"spirit":-15,"social":0,"money":0},"elseresult":null}
+	}
+},
+"102":
+{
+	"id":102,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"完成作业","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":10,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null}
+	}
+},
+"103":
+{
+	"id":103,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"实践作业","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":-5,"social":5,"money":0},"elseresult":null}
+	}
+},
+"104":
+{
+	"id":104,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"进城游玩","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":20,"social":15,"money":-100},"elseresult":null}
+	}
+},
+"105":
+{
+	"id":105,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"锻炼身体","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":10,"social":0,"money":0},"elseresult":null}
+	}
+},
+"106":
+{
+	"id":106,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"社团活动","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":-10,"social":5,"money":0},"elseresult":null}
+	}
+},
+"107":
+{
+	"id":107,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"宿舍摸鱼","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":5,"social":0,"money":0},"elseresult":null}
+	}
+},
+"108":
+{
+	"id":108,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"整理宿舍","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":5,"spirit":-10,"social":10,"money":0},"elseresult":null}
+	}
+},
+"109":
+{
+	"id":109,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"练习车技","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":-10,"social":0,"money":0},"elseresult":null}
+	}
+},
+"110":
+{
+	"id":110,
+	"in": 0,
+	"bg":"青春广场1",
+	"entries": [
+		{ "index":0,"type":0,"rolename":"null","content":"电子竞技","nextindex":1},
+		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
+	],
+	"sequence":{
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":-20,"spirit":-15,"social":20,"money":0},"elseresult":null}
+	}
+}
+}
