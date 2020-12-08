@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "af66d053-3a27-4581-bd87-084352b22ff6",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 574,
+  "height": 139,
+  "platformSettings": {},
+  "subMetas": {
+    "行程安排_执行按钮": {
+      "ver": "1.0.4",
+      "uuid": "918387b9-205d-43d8-a83d-3f5d51dc222e",
+      "rawTextureUuid": "af66d053-3a27-4581-bd87-084352b22ff6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 574,
+      "height": 139,
+      "rawWidth": 574,
+      "rawHeight": 139,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

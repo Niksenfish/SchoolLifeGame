@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "524cba71-8b87-4af0-a29b-b15ef3779cd5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 4032,
+  "height": 1864,
+  "platformSettings": {},
+  "subMetas": {
+    "行程安排主页面": {
+      "ver": "1.0.4",
+      "uuid": "0267e1f0-cfbe-4c99-8aee-542294d4f8b9",
+      "rawTextureUuid": "524cba71-8b87-4af0-a29b-b15ef3779cd5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 4032,
+      "height": 1864,
+      "rawWidth": 4032,
+      "rawHeight": 1864,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

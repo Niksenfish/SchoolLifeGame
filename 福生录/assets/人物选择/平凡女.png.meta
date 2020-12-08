@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "2eb59931-61cf-4bab-8481-21c63f404b7a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 791,
+  "height": 1229,
+  "platformSettings": {},
+  "subMetas": {
+    "平凡女": {
+      "ver": "1.0.4",
+      "uuid": "75354d8a-37a4-454b-9632-1119fa283b13",
+      "rawTextureUuid": "2eb59931-61cf-4bab-8481-21c63f404b7a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 54,
+      "offsetY": 0,
+      "trimX": 144,
+      "trimY": 0,
+      "width": 611,
+      "height": 1229,
+      "rawWidth": 791,
+      "rawHeight": 1229,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

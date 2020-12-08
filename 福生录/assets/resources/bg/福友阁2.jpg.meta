@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "6bec3ca3-6e60-4a26-b0b4-96b680402991",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2436,
+  "height": 1125,
+  "platformSettings": {},
+  "subMetas": {
+    "福友阁2": {
+      "ver": "1.0.4",
+      "uuid": "85b6e737-aded-402f-aa02-144b86b62b7b",
+      "rawTextureUuid": "6bec3ca3-6e60-4a26-b0b4-96b680402991",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2436,
+      "height": 1125,
+      "rawWidth": 2436,
+      "rawHeight": 1125,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

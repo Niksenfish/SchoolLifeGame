@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "0992a4a5-d480-42db-95bc-58b9b6afcace",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 669,
+  "height": 1016,
+  "platformSettings": {},
+  "subMetas": {
+    "天底下最好的舍友（女）": {
+      "ver": "1.0.4",
+      "uuid": "0b9ba013-acfb-4fd2-b90f-f422024deb60",
+      "rawTextureUuid": "0992a4a5-d480-42db-95bc-58b9b6afcace",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 12,
+      "offsetY": -14.5,
+      "trimX": 58,
+      "trimY": 29,
+      "width": 577,
+      "height": 987,
+      "rawWidth": 669,
+      "rawHeight": 1016,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
