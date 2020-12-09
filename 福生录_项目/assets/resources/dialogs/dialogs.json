@@ -568,7 +568,7 @@
 	"in": 0,
 	"bg":"主界面1",
 	"entries": [
-		{ "index":0,"type":0,"rolename":"null","content":"睡前护肤，你发现自己的眼霜用完了，面霜也快没了。你在宿舍说：好多东西要买啊，都快要吃土了。天底下最好的舍友:双十一快到了，X宝出了养猫游戏，我邀你了，你快点一下，有红包，加上满减算一算，能剩下不少。","nextindex":22},
+		{ "index":0,"type":0,"rolename":"null","content":"睡前护肤，你发现自己的眼霜用完了，面霜也快没了。你在宿舍说：好多东西要买啊，都快要吃土了。","nextindex":24},
 		{ "index":1,"type":1,"rolename":"null","content":"不玩了|我可以课余时间玩","nextindex":-1},
 		{ "index":2,"type":0,"rolename":"NULL","content":"你这次考试复习得很充分，考试时答题很流利，心情很不错。","nextindex":3},
 		{ "index":3,"type":1,"rolename":"null","content":"你决定犒劳一下自己（￥500）|你觉得自己本来就是这么优秀！平常心平常心","nextindex":-1},
@@ -590,7 +590,8 @@
 		{ "index":20,"type":1,"rolename":"null","content":"随便买一双|小孩子才做选择，我全都要。","nextindex":-1},
 		{ "index":21,"type":0,"rolename":"天底下最好的舍友","content":"那就买红色的吧，最近气温比较低，保暖一点的比较好。","nextindex":-1},
 		{ "index":22,"type":0,"rolename":"你","content":"好啊","nextindex":23},
-		{ "index":23,"type":0,"rolename":"null","content":"点开天底下最好的舍友分享的链接，在X宝APP上开始撸猫，玩这个游戏每天都要耗费你好多时间，而下周就要考试了。","nextindex":1}
+		{ "index":23,"type":0,"rolename":"null","content":"点开天底下最好的舍友分享的链接，在X宝APP上开始撸猫，玩这个游戏每天都要耗费你好多时间，而下周就要考试了。","nextindex":1},
+		{ "index":24,"type":0,"rolename":"天底下最好的舍友","content":"双十一快到了，X宝出了养猫游戏，我邀你了，你快点一下，有红包，加上满减算一算，能剩下不少。","nextindex":22}
 	],
 	"sequence":{
 		"不玩了":{"nextindex":2,"results":{"study":0,"reason":20,"spirit":0,"social":0,"money":0},"elseresult":null},
@@ -902,7 +903,7 @@
 		{ "index":6,"type":1,"rolename":"NULL","content":"十分后悔|问题不大","nextindex":-1},
 		{ "index":7,"type":0,"rolename":"你","content":"后悔，现在就是十分的后悔。","nextindex":8},
 		{ "index":8,"type":0,"rolename":"你","content":"没关系，反正最后能有名额。","nextindex":9},
-		{ "index":9,"type":0,"rolename":"你","content":"真的吗？ 把网站发给我，我要赶紧预约。","nextindex":10},
+		{ "index":9,"type":0,"rolename":"你","content":"真的吗？把网站发给我，我要赶紧预约。","nextindex":10},
 		{ "index":10,"type":0,"rolename":"NULL","content":"你成功预约好了大物实验并且帮舍友预约好了，但是你的线性代数课都没有听，老师布置的作业都不会写。","nextindex":-1}	
 
 	],
@@ -2074,11 +2075,11 @@
 	"in": 0,
 	"bg":"青春广场1",
 	"entries": [
-		{ "index":0,"type":0,"rolename":"认真上课","content":"学业上升30，理智下降5，精力下降15","nextindex":-1},
+		{ "index":0,"type":0,"rolename":"认真上课","content":"学业上升15，理智上升5，精力下降15","nextindex":-1},
 		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
 	],
 	"sequence":{
-		"查看结果":{"nextindex":-1,"results":{"study":30,"reason":5,"spirit":-15,"social":0,"money":0},"elseresult":null}
+		"查看结果":{"nextindex":-1,"results":{"study":15,"reason":5,"spirit":-15,"social":0,"money":0},"elseresult":null}
 	}
 },
 "102":
@@ -2087,11 +2088,11 @@
 	"in": 0,
 	"bg":"青春广场1",
 	"entries": [
-		{ "index":0,"type":0,"rolename":"完成作业","content":"学业上升15，精力下降10","nextindex":-1},
+		{ "index":0,"type":0,"rolename":"完成作业","content":"学业上升10，理智上升5，精力下降10","nextindex":-1},
 		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
 	],
 	"sequence":{
-		"查看结果":{"nextindex":-1,"results":{"study":15,"reason":5,"spirit":-10,"social":0,"money":0},"elseresult":null}
+		"查看结果":{"nextindex":-1,"results":{"study":10,"reason":5,"spirit":-10,"social":0,"money":0},"elseresult":null}
 	}
 },
 "103":
@@ -2100,11 +2101,11 @@
 	"in": 0,
 	"bg":"青春广场1",
 	"entries": [
-		{ "index":0,"type":0,"rolename":"实践作业","content":"学业上升15，理智下降5，精力下降5，社交上升5","nextindex":-1},
+		{ "index":0,"type":0,"rolename":"实践作业","content":"学业上升5，精力下降5，社交上升5","nextindex":-1},
 		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
 	],
 	"sequence":{
-		"查看结果":{"nextindex":-1,"results":{"study":15,"reason":5,"spirit":-5,"social":5,"money":0},"elseresult":null}
+		"查看结果":{"nextindex":-1,"results":{"study":5,"reason":0,"spirit":-5,"social":5,"money":0},"elseresult":null}
 	}
 },
 "104":
@@ -2113,11 +2114,11 @@
 	"in": 0,
 	"bg":"青春广场1",
 	"entries": [
-		{ "index":0,"type":0,"rolename":"进城游玩","content":"生活费下降￥200，精力上升20，社交上升15","nextindex":-1},
+		{ "index":0,"type":0,"rolename":"进城游玩","content":"生活费下降￥200，理智下降5，精力上升20，社交上升15","nextindex":-1},
 		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
 	],
 	"sequence":{
-		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":20,"social":15,"money":-200},"elseresult":null}
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":-5,"spirit":20,"social":15,"money":-200},"elseresult":null}
 	}
 },
 "105":
@@ -2126,11 +2127,11 @@
 	"in": 0,
 	"bg":"青春广场1",
 	"entries": [
-		{ "index":0,"type":0,"rolename":"锻炼身体","content":"理智下降5，精力上升30","nextindex":-1},
+		{ "index":0,"type":0,"rolename":"锻炼身体","content":"精力上升15","nextindex":-1},
 		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
 	],
 	"sequence":{
-		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":5,"spirit":30,"social":0,"money":0},"elseresult":null}
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":15,"social":0,"money":0},"elseresult":null}
 	}
 },
 "106":
@@ -2139,11 +2140,11 @@
 	"in": 0,
 	"bg":"青春广场1",
 	"entries": [
-		{ "index":0,"type":0,"rolename":"社团活动","content":"理智上升5，精力下降10，社交上升10","nextindex":-1},
+		{ "index":0,"type":0,"rolename":"社团活动","content":"精力下降10，社交上升10","nextindex":-1},
 		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
 	],
 	"sequence":{
-		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":5,"spirit":-10,"social":10,"money":0},"elseresult":null}
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":0,"spirit":-10,"social":10,"money":0},"elseresult":null}
 	}
 },
 "107":
@@ -2178,7 +2179,7 @@
 	"in": 0,
 	"bg":"青春广场1",
 	"entries": [
-		{ "index":0,"type":0,"rolename":"练习车技","content":"精力下降10，生活费下降￥50","nextindex":-1},
+		{ "index":0,"type":0,"rolename":"练习车技","content":"精力下降10，社交上升10，生活费下降￥50","nextindex":-1},
 		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
 	],
 	"sequence":{
@@ -2191,11 +2192,11 @@
 	"in": 0,
 	"bg":"青春广场1",
 	"entries": [
-		{ "index":0,"type":0,"rolename":"电子竞技","content":"精力下降10，社交上升20，理智下降20，生活费下降￥5","nextindex":-1},
+		{ "index":0,"type":0,"rolename":"电子竞技","content":"精力下降10，社交上升20，理智下降20，生活费下降￥10","nextindex":-1},
 		{ "index":1,"type":1,"rolename":"null","content":"查看结果|","nextindex":-1}
 	],
 	"sequence":{
-		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":-20,"spirit":-10,"social":20,"money":-5},"elseresult":null}
+		"查看结果":{"nextindex":-1,"results":{"study":0,"reason":-20,"spirit":-10,"social":20,"money":-10},"elseresult":null}
 	}
 }
 }

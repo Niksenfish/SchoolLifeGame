@@ -50,32 +50,31 @@ cc.Class({
                     userdata.money+=100;break;
                 case 1:
                     userdata.spirit-=15;
-                    userdata.study+=30;
+                    userdata.study+=15;
                     userdata.reason+=5;
                     break;
                 case 2:
                     userdata.spirit-=10;
-                    userdata.study+=15;
+                    userdata.study+=10;
                     userdata.reason+=5;
                     break;
                 case 3:
-                    userdata.study+=15;
-                    userdata.reason+=5;
+                    userdata.study+=5;
                     userdata.social+=5;
                     userdata.spirit-=5;
                     break;
                 case 4:
                     userdata.money-=200;
+                    userdata.reason-=5;
                     userdata.social+=15;
                     userdata.spirit+=20;
                     break;
                 case 5:
-                    userdata.spirit+=30;
+                    userdata.spirit+=15;
                     break;
                 case 6:
                     userdata.spirit-=10;
                     userdata.social+=10;
-                    userdata.reason+=5;
                     break;
                 case 7:
                     userdata.study-=10;
@@ -96,7 +95,7 @@ cc.Class({
                     userdata.spirit-=10;
                     userdata.social+=20;
                     userdata.reason-=20;
-                    userdata.money-=5;
+                    userdata.money-=10;
                     break;
             }
         }
