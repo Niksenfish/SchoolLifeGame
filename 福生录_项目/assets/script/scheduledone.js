@@ -35,8 +35,10 @@ cc.Class({
     // onLoad () {},
     click(){
         var userdata = JSON.parse(cc.sys.localStorage.getItem('userdata'));
-        //每周恢复20点精力
+        //每周恢复10点精力
         userdata.spirit+=10;
+        userdata.money -= 100;
+        userdata.study -= 5;
         var allweek = JSON.parse(cc.sys.localStorage.getItem('allweek'));
         var randomdialogs = JSON.parse(cc.sys.localStorage.getItem('randomdialogs'));
         var cDate = JSON.parse(cc.sys.localStorage.getItem('cdate'));
